@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900&display=swap');
+ * {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     font-family: 'Poppins', sans-serif;
+     scroll-behavior: smooth;
+     box-sizing: border-box;
+}
+ body {
+     margin-top: 67px;
+     min-height: 100vh;
+     overflow-x: hidden;
+     background: linear-gradient(#140827, #202e4e);
+}
+
+ .twocols {
+     position: relative;
+     max-width: 90%;
+     margin: 0 0;
+     margin-top: 100px;
+}
+ .twocols::after {
+     content: '';
+     position: absolute;
+     width: 3px;
+     background-color: #cfcfcf;
+     top: 0;
+     bottom: 0;
+     left: 50%;
+}
+ .container {
+     padding: 30px 50px;
+     position: relative;
+     background-color: inherit;
+     width: 50%;
+     margin-top: 5%;
+}
+
+ .left {
+     left: 0;
+}
+ .right {
+     left: 50%;
+}
+
+ p {
+     color: #cfcfcf;
+}
+
+ @media screen and (max-width: 1000px) {
+     .left, .right {
+         margin-top: 10%;
+         left: 0px;
+    }
+
+     .twocols::after {
+         left: 20px;
+    }
+
+     .container {
+         margin-top: 4%;
+         width: 100%;
+         padding-left: 40px;
+         padding-right: 20px;
+    }
+}
+
+
+:root {
+     --shadow-color: #FF9E9E;
+     --shadow-color-light: white;
+}
+ h2 {
+     margin: 0px;
+     font-size: 30px;
+     text-transform: uppercase;
+     font-weight: normal;
+     display: block;
+     height: auto;
+     text-align: left;
+}
+ .topic-heading {
+     color: white;
+     animation: neon 5s infinite;
+}
+ @keyframes neon {
+     0% {
+         text-shadow: -1px -1px 1px var(--shadow-color-light), -1px 1px 1px var(--shadow-color-light), 1px -1px 1px var(--shadow-color-light), 1px 1px 1px var(--shadow-color-light), 0 0 3px var(--shadow-color-light), 0 0 10px var(--shadow-color-light), 0 0 20px var(--shadow-color-light), 0 0 30px var(--shadow-color), 0 0 40px var(--shadow-color), 0 0 50px var(--shadow-color), 0 0 70px var(--shadow-color), 0 0 100px var(--shadow-color), 0 0 200px var(--shadow-color);
+    }
+     50% {
+         text-shadow: -1px -1px 1px var(--shadow-color-light), -1px 1px 1px var(--shadow-color-light), 1px -1px 1px var(--shadow-color-light), 1px 1px 1px var(--shadow-color-light), 0 0 5px var(--shadow-color-light), 0 0 15px var(--shadow-color-light), 0 0 25px var(--shadow-color-light), 0 0 40px var(--shadow-color), 0 0 50px var(--shadow-color), 0 0 60px var(--shadow-color), 0 0 80px var(--shadow-color), 0 0 110px var(--shadow-color), 0 0 210px var(--shadow-color);
+    }
+     100% {
+         text-shadow: -1px -1px 1px var(--shadow-color-light), -1px 1px 1px var(--shadow-color-light), 1px -1px 1px var(--shadow-color-light), 1px 1px 1px var(--shadow-color-light), 0 0 3px var(--shadow-color-light), 0 0 10px var(--shadow-color-light), 0 0 20px var(--shadow-color-light), 0 0 30px var(--shadow-color), 0 0 40px var(--shadow-color), 0 0 50px var(--shadow-color), 0 0 70px var(--shadow-color), 0 0 100px var(--shadow-color), 0 0 200px var(--shadow-color);
+    }
+}
