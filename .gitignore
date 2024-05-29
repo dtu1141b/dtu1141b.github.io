@@ -1,3 +1,6 @@
 publisher/web-env
-static/linkmap
 node_modules/
+public/
+resources/
+.hugo_build.lock
+

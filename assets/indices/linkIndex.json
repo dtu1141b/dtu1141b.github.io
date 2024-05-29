@@ -1,0 +1,859 @@
+{
+  "index": {
+    "links": {
+      "/blog/a-deep-dive-into-the-knapsack-problem": [
+        {
+          "source": "/blog/a-deep-dive-into-the-knapsack-problem",
+          "target": "/blog/dp-as-dags-shortest-path-on-dags-lis-in-o-nlogn",
+          "text": "DP as DAGs,  Shortest path on DAGs \u0026 LIS in O(nlogn)"
+        },
+        {
+          "source": "/blog/a-deep-dive-into-the-knapsack-problem",
+          "target": "/blog/levenshtein-edit-distance",
+          "text": "Levenshtein Edit Distance"
+        },
+        {
+          "source": "/blog/a-deep-dive-into-the-knapsack-problem",
+          "target": "/blog/chain-matrix-multiplication",
+          "text": "Chain Matrix Multiplication"
+        },
+        {
+          "source": "/blog/a-deep-dive-into-the-knapsack-problem",
+          "target": "/blog/introduction-to-complexity-theory",
+          "text": "Introduction to Complexity Theory"
+        }
+      ],
+      "/blog/analyzing-fibonacci-karatsuba-multiplication": [
+        {
+          "source": "/blog/analyzing-fibonacci-karatsuba-multiplication",
+          "target": "/blog/the-fast-fourier-transform-fft",
+          "text": "The Fast Fourier Transform (FFT)"
+        },
+        {
+          "source": "/blog/analyzing-fibonacci-karatsuba-multiplication",
+          "target": "/blog/how-to-analyze-algorithms-proving-a-lower-bound-for-comparison-based-sorting",
+          "text": "How to analyze algorithms? Proving a lower bound for comparison based sorting"
+        }
+      ],
+      "/blog/are-there-computational-problems-that-computers-cannot-solve": [
+        {
+          "source": "/blog/are-there-computational-problems-that-computers-cannot-solve",
+          "target": "/blog/church-turing-hypothesis",
+          "text": "Church-Turing Hypothesis"
+        }
+      ],
+      "/blog/chain-matrix-multiplication": [
+        {
+          "source": "/blog/chain-matrix-multiplication",
+          "target": "/blog/levenshtein-edit-distance",
+          "text": "Levenshtein Edit Distance"
+        }
+      ],
+      "/blog/covered-calls-strategy": [
+        {
+          "source": "/blog/covered-calls-strategy",
+          "target": "/blog/derivatives-options",
+          "text": "Derivatives - Options"
+        }
+      ],
+      "/blog/defining-computational-problems": [
+        {
+          "source": "/blog/defining-computational-problems",
+          "target": "/blog/are-there-computational-problems-that-computers-cannot-solve",
+          "text": "Are there computational problems that computers cannot solve?"
+        },
+        {
+          "source": "/blog/defining-computational-problems",
+          "target": "/blog/church-turing-hypothesis",
+          "text": "Church-Turing Hypothesis"
+        }
+      ],
+      "/blog/derivatives-options": [
+        {
+          "source": "/blog/derivatives-options",
+          "target": "/blog/what-is-the-stock-market",
+          "text": "What is the Stock Market?"
+        }
+      ],
+      "/blog/dp-as-dags-shortest-path-on-dags-lis-in-o-nlogn": [
+        {
+          "source": "/blog/dp-as-dags-shortest-path-on-dags-lis-in-o-nlogn",
+          "target": "/blog/set-cover-approximation-algorithms",
+          "text": "Set Cover \u0026 Approximation Algorithms"
+        },
+        {
+          "source": "/blog/dp-as-dags-shortest-path-on-dags-lis-in-o-nlogn",
+          "target": "/blog/more-greedy-algorithms-kruskal-s-disjoint-set-union",
+          "text": "More Greedy Algorithms! Kruskal's \u0026 Disjoint Set Union"
+        },
+        {
+          "source": "/blog/dp-as-dags-shortest-path-on-dags-lis-in-o-nlogn",
+          "target": "/blog/activity-selection-huffman-encoding",
+          "text": "Activity Selection \u0026 Huffman Encoding"
+        },
+        {
+          "source": "/blog/dp-as-dags-shortest-path-on-dags-lis-in-o-nlogn",
+          "target": "/blog/complexity-theory-reductions",
+          "text": "Complexity Theory - Reductions"
+        }
+      ],
+      "/blog/how-the-economic-machine-works-by-ray-dalio": [
+        {
+          "source": "/blog/how-the-economic-machine-works-by-ray-dalio",
+          "target": "/blog/power-of-compound-interest",
+          "text": "POWER OF COMPOUND INTEREST"
+        }
+      ],
+      "/blog/how-to-analyze-algorithms-proving-a-lower-bound-for-comparison-based-sorting": [
+        {
+          "source": "/blog/how-to-analyze-algorithms-proving-a-lower-bound-for-comparison-based-sorting",
+          "target": "/blog/are-there-computational-problems-that-computers-cannot-solve",
+          "text": "Are there computational problems that computers cannot solve?"
+        },
+        {
+          "source": "/blog/how-to-analyze-algorithms-proving-a-lower-bound-for-comparison-based-sorting",
+          "target": "/blog/are-there-computational-problems-that-computers-cannot-solve",
+          "text": "Are there computational problems that computers cannot solve?"
+        }
+      ],
+      "/blog/introduction-to-complexity-theory": [
+        {
+          "source": "/blog/introduction-to-complexity-theory",
+          "target": "/blog/defining-computational-problems",
+          "text": "Defining Computational Problems"
+        },
+        {
+          "source": "/blog/introduction-to-complexity-theory",
+          "target": "/blog/church-turing-hypothesis",
+          "text": "Church-Turing Hypothesis"
+        },
+        {
+          "source": "/blog/introduction-to-complexity-theory",
+          "target": "/blog/p-vs-np",
+          "text": "P vs NP"
+        }
+      ],
+      "/blog/knapsack-using-branch-and-bounding": [
+        {
+          "source": "/blog/knapsack-using-branch-and-bounding",
+          "target": "/blog/a-deep-dive-into-the-knapsack-problem",
+          "text": "A Deep Dive into the Knapsack Problem"
+        }
+      ],
+      "/blog/levenshtein-edit-distance": [
+        {
+          "source": "/blog/levenshtein-edit-distance",
+          "target": "/blog/dp-as-dags-shortest-path-on-dags-lis-in-o-nlogn",
+          "text": "DP as DAGs,  Shortest path on DAGs \u0026 LIS in O(nlogn)"
+        }
+      ],
+      "/blog/master-s-theorem-strassen-s-matrix-multiplication-kth-order-statistics": [
+        {
+          "source": "/blog/master-s-theorem-strassen-s-matrix-multiplication-kth-order-statistics",
+          "target": "/blog/analyzing-fibonacci-karatsuba-multiplication",
+          "text": "Analyzing Fibonacci \u0026 Karatsuba Multiplication"
+        }
+      ],
+      "/blog/more-greedy-algorithms-kruskal-s-disjoint-set-union": [
+        {
+          "source": "/blog/more-greedy-algorithms-kruskal-s-disjoint-set-union",
+          "target": "/blog/activity-selection-huffman-encoding",
+          "text": "Activity Selection \u0026 Huffman Encoding"
+        }
+      ],
+      "/blog/new-and-delete": [
+        {
+          "source": "/blog/new-and-delete",
+          "target": "/blog/raii-resource-acquisition-is-initialization",
+          "text": "RAII - Resource Acquisition Is Initialization"
+        },
+        {
+          "source": "/blog/new-and-delete",
+          "target": "/blog/smart-pointers",
+          "text": "Smart Pointers"
+        }
+      ],
+      "/blog/public-key-cryptography-coming-up-with-rsa": [
+        {
+          "source": "/blog/public-key-cryptography-coming-up-with-rsa",
+          "target": "/blog/wilson-s-theorem-fermat-s-little-theorem-euler-s-totient-function",
+          "text": "Wilson's Theorem, Fermat's Little Theorem \u0026 Euler's Totient Function"
+        }
+      ],
+      "/blog/randomization-primality-testing-algorithms": [
+        {
+          "source": "/blog/randomization-primality-testing-algorithms",
+          "target": "/blog/wilson-s-theorem-fermat-s-little-theorem-euler-s-totient-function",
+          "text": "Wilson's Theorem, Fermat's Little Theorem \u0026 Euler's Totient Function"
+        }
+      ],
+      "/blog/set-cover-approximation-algorithms": [
+        {
+          "source": "/blog/set-cover-approximation-algorithms",
+          "target": "/blog/more-greedy-algorithms-kruskal-s-disjoint-set-union",
+          "text": "More Greedy Algorithms! Kruskal's \u0026 Disjoint Set Union"
+        },
+        {
+          "source": "/blog/set-cover-approximation-algorithms",
+          "target": "/blog/activity-selection-huffman-encoding",
+          "text": "Activity Selection \u0026 Huffman Encoding"
+        }
+      ],
+      "/blog/shortest-reliable-path-floyd-warshall-max-independent-set-tree": [
+        {
+          "source": "/blog/shortest-reliable-path-floyd-warshall-max-independent-set-tree",
+          "target": "/blog/a-deep-dive-into-the-knapsack-problem",
+          "text": "A Deep Dive into the Knapsack Problem"
+        }
+      ],
+      "/blog/smart-pointers": [
+        {
+          "source": "/blog/smart-pointers",
+          "target": "/blog/new-and-delete",
+          "text": "new and delete"
+        },
+        {
+          "source": "/blog/smart-pointers",
+          "target": "/blog/garbage-collectors",
+          "text": "garbage collectors"
+        },
+        {
+          "source": "/blog/smart-pointers",
+          "target": "/blog/new-and-delete",
+          "text": "new and delete"
+        }
+      ],
+      "/blog/stock-multiples": [
+        {
+          "source": "/blog/stock-multiples",
+          "target": "/blog/what-is-the-stock-market",
+          "text": "What is the Stock Market?"
+        }
+      ],
+      "/blog/technical-analysis": [
+        {
+          "source": "/blog/technical-analysis",
+          "target": "/blog/what-is-the-stock-market",
+          "text": "What is the Stock Market?"
+        },
+        {
+          "source": "/blog/technical-analysis",
+          "target": "/blog/the-efficient-market-hypothesis",
+          "text": "THE EFFICIENT MARKET HYPOTHESIS"
+        }
+      ],
+      "/blog/the-black-scholes-merton-equation": [
+        {
+          "source": "/blog/the-black-scholes-merton-equation",
+          "target": "/blog/derivatives-options",
+          "text": "Derivatives - Options"
+        },
+        {
+          "source": "/blog/the-black-scholes-merton-equation",
+          "target": "/blog/the-efficient-market-hypothesis",
+          "text": "THE EFFICIENT MARKET HYPOTHESIS"
+        },
+        {
+          "source": "/blog/the-black-scholes-merton-equation",
+          "target": "/blog/what-is-the-stock-market",
+          "text": "What is the Stock Market?"
+        },
+        {
+          "source": "/blog/the-black-scholes-merton-equation",
+          "target": "/blog/linearity-of-expectation",
+          "text": "LINEARITY OF EXPECTATION"
+        }
+      ],
+      "/blog/the-economics-of-foreign-exchange-forex": [
+        {
+          "source": "/blog/the-economics-of-foreign-exchange-forex",
+          "target": "/blog/what-is-the-stock-market",
+          "text": "What is the Stock Market?"
+        },
+        {
+          "source": "/blog/the-economics-of-foreign-exchange-forex",
+          "target": "/blog/great-depression",
+          "text": "Great Depression"
+        },
+        {
+          "source": "/blog/the-economics-of-foreign-exchange-forex",
+          "target": "/blog/derivatives-options",
+          "text": "Derivatives - Options"
+        }
+      ],
+      "/blog/what-is-the-stock-market": [
+        {
+          "source": "/blog/what-is-the-stock-market",
+          "target": "/blog/how-the-economic-machine-works-by-ray-dalio",
+          "text": "How the Economic Machine Works by Ray Dalio"
+        }
+      ],
+      "/blog/wilson-s-theorem-fermat-s-little-theorem-euler-s-totient-function": [
+        {
+          "source": "/blog/wilson-s-theorem-fermat-s-little-theorem-euler-s-totient-function",
+          "target": "/blog/extended-euclidean-algorithm",
+          "text": "Extended Euclidean Algorithm"
+        },
+        {
+          "source": "/blog/wilson-s-theorem-fermat-s-little-theorem-euler-s-totient-function",
+          "target": "/blog/randomization-primality-testing-algorithms",
+          "text": "Randomization, Primality Testing Algorithms"
+        }
+      ]
+    },
+    "backlinks": {
+      "/blog/a-deep-dive-into-the-knapsack-problem": [
+        {
+          "source": "/blog/knapsack-using-branch-and-bounding",
+          "target": "/blog/a-deep-dive-into-the-knapsack-problem",
+          "text": "A Deep Dive into the Knapsack Problem"
+        },
+        {
+          "source": "/blog/shortest-reliable-path-floyd-warshall-max-independent-set-tree",
+          "target": "/blog/a-deep-dive-into-the-knapsack-problem",
+          "text": "A Deep Dive into the Knapsack Problem"
+        }
+      ],
+      "/blog/activity-selection-huffman-encoding": [
+        {
+          "source": "/blog/dp-as-dags-shortest-path-on-dags-lis-in-o-nlogn",
+          "target": "/blog/activity-selection-huffman-encoding",
+          "text": "Activity Selection \u0026 Huffman Encoding"
+        },
+        {
+          "source": "/blog/more-greedy-algorithms-kruskal-s-disjoint-set-union",
+          "target": "/blog/activity-selection-huffman-encoding",
+          "text": "Activity Selection \u0026 Huffman Encoding"
+        },
+        {
+          "source": "/blog/set-cover-approximation-algorithms",
+          "target": "/blog/activity-selection-huffman-encoding",
+          "text": "Activity Selection \u0026 Huffman Encoding"
+        }
+      ],
+      "/blog/analyzing-fibonacci-karatsuba-multiplication": [
+        {
+          "source": "/blog/master-s-theorem-strassen-s-matrix-multiplication-kth-order-statistics",
+          "target": "/blog/analyzing-fibonacci-karatsuba-multiplication",
+          "text": "Analyzing Fibonacci \u0026 Karatsuba Multiplication"
+        }
+      ],
+      "/blog/are-there-computational-problems-that-computers-cannot-solve": [
+        {
+          "source": "/blog/defining-computational-problems",
+          "target": "/blog/are-there-computational-problems-that-computers-cannot-solve",
+          "text": "Are there computational problems that computers cannot solve?"
+        },
+        {
+          "source": "/blog/how-to-analyze-algorithms-proving-a-lower-bound-for-comparison-based-sorting",
+          "target": "/blog/are-there-computational-problems-that-computers-cannot-solve",
+          "text": "Are there computational problems that computers cannot solve?"
+        },
+        {
+          "source": "/blog/how-to-analyze-algorithms-proving-a-lower-bound-for-comparison-based-sorting",
+          "target": "/blog/are-there-computational-problems-that-computers-cannot-solve",
+          "text": "Are there computational problems that computers cannot solve?"
+        }
+      ],
+      "/blog/chain-matrix-multiplication": [
+        {
+          "source": "/blog/a-deep-dive-into-the-knapsack-problem",
+          "target": "/blog/chain-matrix-multiplication",
+          "text": "Chain Matrix Multiplication"
+        }
+      ],
+      "/blog/church-turing-hypothesis": [
+        {
+          "source": "/blog/are-there-computational-problems-that-computers-cannot-solve",
+          "target": "/blog/church-turing-hypothesis",
+          "text": "Church-Turing Hypothesis"
+        },
+        {
+          "source": "/blog/defining-computational-problems",
+          "target": "/blog/church-turing-hypothesis",
+          "text": "Church-Turing Hypothesis"
+        },
+        {
+          "source": "/blog/introduction-to-complexity-theory",
+          "target": "/blog/church-turing-hypothesis",
+          "text": "Church-Turing Hypothesis"
+        }
+      ],
+      "/blog/complexity-theory-reductions": [
+        {
+          "source": "/blog/dp-as-dags-shortest-path-on-dags-lis-in-o-nlogn",
+          "target": "/blog/complexity-theory-reductions",
+          "text": "Complexity Theory - Reductions"
+        }
+      ],
+      "/blog/defining-computational-problems": [
+        {
+          "source": "/blog/introduction-to-complexity-theory",
+          "target": "/blog/defining-computational-problems",
+          "text": "Defining Computational Problems"
+        }
+      ],
+      "/blog/derivatives-options": [
+        {
+          "source": "/blog/covered-calls-strategy",
+          "target": "/blog/derivatives-options",
+          "text": "Derivatives - Options"
+        },
+        {
+          "source": "/blog/the-black-scholes-merton-equation",
+          "target": "/blog/derivatives-options",
+          "text": "Derivatives - Options"
+        },
+        {
+          "source": "/blog/the-economics-of-foreign-exchange-forex",
+          "target": "/blog/derivatives-options",
+          "text": "Derivatives - Options"
+        }
+      ],
+      "/blog/dp-as-dags-shortest-path-on-dags-lis-in-o-nlogn": [
+        {
+          "source": "/blog/a-deep-dive-into-the-knapsack-problem",
+          "target": "/blog/dp-as-dags-shortest-path-on-dags-lis-in-o-nlogn",
+          "text": "DP as DAGs,  Shortest path on DAGs \u0026 LIS in O(nlogn)"
+        },
+        {
+          "source": "/blog/levenshtein-edit-distance",
+          "target": "/blog/dp-as-dags-shortest-path-on-dags-lis-in-o-nlogn",
+          "text": "DP as DAGs,  Shortest path on DAGs \u0026 LIS in O(nlogn)"
+        }
+      ],
+      "/blog/extended-euclidean-algorithm": [
+        {
+          "source": "/blog/wilson-s-theorem-fermat-s-little-theorem-euler-s-totient-function",
+          "target": "/blog/extended-euclidean-algorithm",
+          "text": "Extended Euclidean Algorithm"
+        }
+      ],
+      "/blog/garbage-collectors": [
+        {
+          "source": "/blog/smart-pointers",
+          "target": "/blog/garbage-collectors",
+          "text": "garbage collectors"
+        }
+      ],
+      "/blog/great-depression": [
+        {
+          "source": "/blog/the-economics-of-foreign-exchange-forex",
+          "target": "/blog/great-depression",
+          "text": "Great Depression"
+        }
+      ],
+      "/blog/how-the-economic-machine-works-by-ray-dalio": [
+        {
+          "source": "/blog/what-is-the-stock-market",
+          "target": "/blog/how-the-economic-machine-works-by-ray-dalio",
+          "text": "How the Economic Machine Works by Ray Dalio"
+        }
+      ],
+      "/blog/how-to-analyze-algorithms-proving-a-lower-bound-for-comparison-based-sorting": [
+        {
+          "source": "/blog/analyzing-fibonacci-karatsuba-multiplication",
+          "target": "/blog/how-to-analyze-algorithms-proving-a-lower-bound-for-comparison-based-sorting",
+          "text": "How to analyze algorithms? Proving a lower bound for comparison based sorting"
+        }
+      ],
+      "/blog/introduction-to-complexity-theory": [
+        {
+          "source": "/blog/a-deep-dive-into-the-knapsack-problem",
+          "target": "/blog/introduction-to-complexity-theory",
+          "text": "Introduction to Complexity Theory"
+        }
+      ],
+      "/blog/levenshtein-edit-distance": [
+        {
+          "source": "/blog/a-deep-dive-into-the-knapsack-problem",
+          "target": "/blog/levenshtein-edit-distance",
+          "text": "Levenshtein Edit Distance"
+        },
+        {
+          "source": "/blog/chain-matrix-multiplication",
+          "target": "/blog/levenshtein-edit-distance",
+          "text": "Levenshtein Edit Distance"
+        }
+      ],
+      "/blog/linearity-of-expectation": [
+        {
+          "source": "/blog/the-black-scholes-merton-equation",
+          "target": "/blog/linearity-of-expectation",
+          "text": "LINEARITY OF EXPECTATION"
+        }
+      ],
+      "/blog/more-greedy-algorithms-kruskal-s-disjoint-set-union": [
+        {
+          "source": "/blog/dp-as-dags-shortest-path-on-dags-lis-in-o-nlogn",
+          "target": "/blog/more-greedy-algorithms-kruskal-s-disjoint-set-union",
+          "text": "More Greedy Algorithms! Kruskal's \u0026 Disjoint Set Union"
+        },
+        {
+          "source": "/blog/set-cover-approximation-algorithms",
+          "target": "/blog/more-greedy-algorithms-kruskal-s-disjoint-set-union",
+          "text": "More Greedy Algorithms! Kruskal's \u0026 Disjoint Set Union"
+        }
+      ],
+      "/blog/new-and-delete": [
+        {
+          "source": "/blog/smart-pointers",
+          "target": "/blog/new-and-delete",
+          "text": "new and delete"
+        },
+        {
+          "source": "/blog/smart-pointers",
+          "target": "/blog/new-and-delete",
+          "text": "new and delete"
+        }
+      ],
+      "/blog/p-vs-np": [
+        {
+          "source": "/blog/introduction-to-complexity-theory",
+          "target": "/blog/p-vs-np",
+          "text": "P vs NP"
+        }
+      ],
+      "/blog/power-of-compound-interest": [
+        {
+          "source": "/blog/how-the-economic-machine-works-by-ray-dalio",
+          "target": "/blog/power-of-compound-interest",
+          "text": "POWER OF COMPOUND INTEREST"
+        }
+      ],
+      "/blog/raii-resource-acquisition-is-initialization": [
+        {
+          "source": "/blog/new-and-delete",
+          "target": "/blog/raii-resource-acquisition-is-initialization",
+          "text": "RAII - Resource Acquisition Is Initialization"
+        }
+      ],
+      "/blog/randomization-primality-testing-algorithms": [
+        {
+          "source": "/blog/wilson-s-theorem-fermat-s-little-theorem-euler-s-totient-function",
+          "target": "/blog/randomization-primality-testing-algorithms",
+          "text": "Randomization, Primality Testing Algorithms"
+        }
+      ],
+      "/blog/set-cover-approximation-algorithms": [
+        {
+          "source": "/blog/dp-as-dags-shortest-path-on-dags-lis-in-o-nlogn",
+          "target": "/blog/set-cover-approximation-algorithms",
+          "text": "Set Cover \u0026 Approximation Algorithms"
+        }
+      ],
+      "/blog/smart-pointers": [
+        {
+          "source": "/blog/new-and-delete",
+          "target": "/blog/smart-pointers",
+          "text": "Smart Pointers"
+        }
+      ],
+      "/blog/the-efficient-market-hypothesis": [
+        {
+          "source": "/blog/technical-analysis",
+          "target": "/blog/the-efficient-market-hypothesis",
+          "text": "THE EFFICIENT MARKET HYPOTHESIS"
+        },
+        {
+          "source": "/blog/the-black-scholes-merton-equation",
+          "target": "/blog/the-efficient-market-hypothesis",
+          "text": "THE EFFICIENT MARKET HYPOTHESIS"
+        }
+      ],
+      "/blog/the-fast-fourier-transform-fft": [
+        {
+          "source": "/blog/analyzing-fibonacci-karatsuba-multiplication",
+          "target": "/blog/the-fast-fourier-transform-fft",
+          "text": "The Fast Fourier Transform (FFT)"
+        }
+      ],
+      "/blog/what-is-the-stock-market": [
+        {
+          "source": "/blog/derivatives-options",
+          "target": "/blog/what-is-the-stock-market",
+          "text": "What is the Stock Market?"
+        },
+        {
+          "source": "/blog/stock-multiples",
+          "target": "/blog/what-is-the-stock-market",
+          "text": "What is the Stock Market?"
+        },
+        {
+          "source": "/blog/technical-analysis",
+          "target": "/blog/what-is-the-stock-market",
+          "text": "What is the Stock Market?"
+        },
+        {
+          "source": "/blog/the-black-scholes-merton-equation",
+          "target": "/blog/what-is-the-stock-market",
+          "text": "What is the Stock Market?"
+        },
+        {
+          "source": "/blog/the-economics-of-foreign-exchange-forex",
+          "target": "/blog/what-is-the-stock-market",
+          "text": "What is the Stock Market?"
+        }
+      ],
+      "/blog/wilson-s-theorem-fermat-s-little-theorem-euler-s-totient-function": [
+        {
+          "source": "/blog/public-key-cryptography-coming-up-with-rsa",
+          "target": "/blog/wilson-s-theorem-fermat-s-little-theorem-euler-s-totient-function",
+          "text": "Wilson's Theorem, Fermat's Little Theorem \u0026 Euler's Totient Function"
+        },
+        {
+          "source": "/blog/randomization-primality-testing-algorithms",
+          "target": "/blog/wilson-s-theorem-fermat-s-little-theorem-euler-s-totient-function",
+          "text": "Wilson's Theorem, Fermat's Little Theorem \u0026 Euler's Totient Function"
+        }
+      ]
+    }
+  },
+  "links": [
+    {
+      "source": "/blog/a-deep-dive-into-the-knapsack-problem",
+      "target": "/blog/dp-as-dags-shortest-path-on-dags-lis-in-o-nlogn",
+      "text": "DP as DAGs,  Shortest path on DAGs \u0026 LIS in O(nlogn)"
+    },
+    {
+      "source": "/blog/a-deep-dive-into-the-knapsack-problem",
+      "target": "/blog/levenshtein-edit-distance",
+      "text": "Levenshtein Edit Distance"
+    },
+    {
+      "source": "/blog/a-deep-dive-into-the-knapsack-problem",
+      "target": "/blog/chain-matrix-multiplication",
+      "text": "Chain Matrix Multiplication"
+    },
+    {
+      "source": "/blog/a-deep-dive-into-the-knapsack-problem",
+      "target": "/blog/introduction-to-complexity-theory",
+      "text": "Introduction to Complexity Theory"
+    },
+    {
+      "source": "/blog/analyzing-fibonacci-karatsuba-multiplication",
+      "target": "/blog/the-fast-fourier-transform-fft",
+      "text": "The Fast Fourier Transform (FFT)"
+    },
+    {
+      "source": "/blog/analyzing-fibonacci-karatsuba-multiplication",
+      "target": "/blog/how-to-analyze-algorithms-proving-a-lower-bound-for-comparison-based-sorting",
+      "text": "How to analyze algorithms? Proving a lower bound for comparison based sorting"
+    },
+    {
+      "source": "/blog/are-there-computational-problems-that-computers-cannot-solve",
+      "target": "/blog/church-turing-hypothesis",
+      "text": "Church-Turing Hypothesis"
+    },
+    {
+      "source": "/blog/chain-matrix-multiplication",
+      "target": "/blog/levenshtein-edit-distance",
+      "text": "Levenshtein Edit Distance"
+    },
+    {
+      "source": "/blog/covered-calls-strategy",
+      "target": "/blog/derivatives-options",
+      "text": "Derivatives - Options"
+    },
+    {
+      "source": "/blog/defining-computational-problems",
+      "target": "/blog/are-there-computational-problems-that-computers-cannot-solve",
+      "text": "Are there computational problems that computers cannot solve?"
+    },
+    {
+      "source": "/blog/defining-computational-problems",
+      "target": "/blog/church-turing-hypothesis",
+      "text": "Church-Turing Hypothesis"
+    },
+    {
+      "source": "/blog/derivatives-options",
+      "target": "/blog/what-is-the-stock-market",
+      "text": "What is the Stock Market?"
+    },
+    {
+      "source": "/blog/dp-as-dags-shortest-path-on-dags-lis-in-o-nlogn",
+      "target": "/blog/set-cover-approximation-algorithms",
+      "text": "Set Cover \u0026 Approximation Algorithms"
+    },
+    {
+      "source": "/blog/dp-as-dags-shortest-path-on-dags-lis-in-o-nlogn",
+      "target": "/blog/more-greedy-algorithms-kruskal-s-disjoint-set-union",
+      "text": "More Greedy Algorithms! Kruskal's \u0026 Disjoint Set Union"
+    },
+    {
+      "source": "/blog/dp-as-dags-shortest-path-on-dags-lis-in-o-nlogn",
+      "target": "/blog/activity-selection-huffman-encoding",
+      "text": "Activity Selection \u0026 Huffman Encoding"
+    },
+    {
+      "source": "/blog/dp-as-dags-shortest-path-on-dags-lis-in-o-nlogn",
+      "target": "/blog/complexity-theory-reductions",
+      "text": "Complexity Theory - Reductions"
+    },
+    {
+      "source": "/blog/how-the-economic-machine-works-by-ray-dalio",
+      "target": "/blog/power-of-compound-interest",
+      "text": "POWER OF COMPOUND INTEREST"
+    },
+    {
+      "source": "/blog/how-to-analyze-algorithms-proving-a-lower-bound-for-comparison-based-sorting",
+      "target": "/blog/are-there-computational-problems-that-computers-cannot-solve",
+      "text": "Are there computational problems that computers cannot solve?"
+    },
+    {
+      "source": "/blog/how-to-analyze-algorithms-proving-a-lower-bound-for-comparison-based-sorting",
+      "target": "/blog/are-there-computational-problems-that-computers-cannot-solve",
+      "text": "Are there computational problems that computers cannot solve?"
+    },
+    {
+      "source": "/blog/introduction-to-complexity-theory",
+      "target": "/blog/defining-computational-problems",
+      "text": "Defining Computational Problems"
+    },
+    {
+      "source": "/blog/introduction-to-complexity-theory",
+      "target": "/blog/church-turing-hypothesis",
+      "text": "Church-Turing Hypothesis"
+    },
+    {
+      "source": "/blog/introduction-to-complexity-theory",
+      "target": "/blog/p-vs-np",
+      "text": "P vs NP"
+    },
+    {
+      "source": "/blog/knapsack-using-branch-and-bounding",
+      "target": "/blog/a-deep-dive-into-the-knapsack-problem",
+      "text": "A Deep Dive into the Knapsack Problem"
+    },
+    {
+      "source": "/blog/levenshtein-edit-distance",
+      "target": "/blog/dp-as-dags-shortest-path-on-dags-lis-in-o-nlogn",
+      "text": "DP as DAGs,  Shortest path on DAGs \u0026 LIS in O(nlogn)"
+    },
+    {
+      "source": "/blog/master-s-theorem-strassen-s-matrix-multiplication-kth-order-statistics",
+      "target": "/blog/analyzing-fibonacci-karatsuba-multiplication",
+      "text": "Analyzing Fibonacci \u0026 Karatsuba Multiplication"
+    },
+    {
+      "source": "/blog/more-greedy-algorithms-kruskal-s-disjoint-set-union",
+      "target": "/blog/activity-selection-huffman-encoding",
+      "text": "Activity Selection \u0026 Huffman Encoding"
+    },
+    {
+      "source": "/blog/new-and-delete",
+      "target": "/blog/raii-resource-acquisition-is-initialization",
+      "text": "RAII - Resource Acquisition Is Initialization"
+    },
+    {
+      "source": "/blog/new-and-delete",
+      "target": "/blog/smart-pointers",
+      "text": "Smart Pointers"
+    },
+    {
+      "source": "/blog/public-key-cryptography-coming-up-with-rsa",
+      "target": "/blog/wilson-s-theorem-fermat-s-little-theorem-euler-s-totient-function",
+      "text": "Wilson's Theorem, Fermat's Little Theorem \u0026 Euler's Totient Function"
+    },
+    {
+      "source": "/blog/randomization-primality-testing-algorithms",
+      "target": "/blog/wilson-s-theorem-fermat-s-little-theorem-euler-s-totient-function",
+      "text": "Wilson's Theorem, Fermat's Little Theorem \u0026 Euler's Totient Function"
+    },
+    {
+      "source": "/blog/set-cover-approximation-algorithms",
+      "target": "/blog/more-greedy-algorithms-kruskal-s-disjoint-set-union",
+      "text": "More Greedy Algorithms! Kruskal's \u0026 Disjoint Set Union"
+    },
+    {
+      "source": "/blog/set-cover-approximation-algorithms",
+      "target": "/blog/activity-selection-huffman-encoding",
+      "text": "Activity Selection \u0026 Huffman Encoding"
+    },
+    {
+      "source": "/blog/shortest-reliable-path-floyd-warshall-max-independent-set-tree",
+      "target": "/blog/a-deep-dive-into-the-knapsack-problem",
+      "text": "A Deep Dive into the Knapsack Problem"
+    },
+    {
+      "source": "/blog/smart-pointers",
+      "target": "/blog/new-and-delete",
+      "text": "new and delete"
+    },
+    {
+      "source": "/blog/smart-pointers",
+      "target": "/blog/garbage-collectors",
+      "text": "garbage collectors"
+    },
+    {
+      "source": "/blog/smart-pointers",
+      "target": "/blog/new-and-delete",
+      "text": "new and delete"
+    },
+    {
+      "source": "/blog/stock-multiples",
+      "target": "/blog/what-is-the-stock-market",
+      "text": "What is the Stock Market?"
+    },
+    {
+      "source": "/blog/technical-analysis",
+      "target": "/blog/what-is-the-stock-market",
+      "text": "What is the Stock Market?"
+    },
+    {
+      "source": "/blog/technical-analysis",
+      "target": "/blog/the-efficient-market-hypothesis",
+      "text": "THE EFFICIENT MARKET HYPOTHESIS"
+    },
+    {
+      "source": "/blog/the-black-scholes-merton-equation",
+      "target": "/blog/derivatives-options",
+      "text": "Derivatives - Options"
+    },
+    {
+      "source": "/blog/the-black-scholes-merton-equation",
+      "target": "/blog/the-efficient-market-hypothesis",
+      "text": "THE EFFICIENT MARKET HYPOTHESIS"
+    },
+    {
+      "source": "/blog/the-black-scholes-merton-equation",
+      "target": "/blog/what-is-the-stock-market",
+      "text": "What is the Stock Market?"
+    },
+    {
+      "source": "/blog/the-black-scholes-merton-equation",
+      "target": "/blog/linearity-of-expectation",
+      "text": "LINEARITY OF EXPECTATION"
+    },
+    {
+      "source": "/blog/the-economics-of-foreign-exchange-forex",
+      "target": "/blog/what-is-the-stock-market",
+      "text": "What is the Stock Market?"
+    },
+    {
+      "source": "/blog/the-economics-of-foreign-exchange-forex",
+      "target": "/blog/great-depression",
+      "text": "Great Depression"
+    },
+    {
+      "source": "/blog/the-economics-of-foreign-exchange-forex",
+      "target": "/blog/derivatives-options",
+      "text": "Derivatives - Options"
+    },
+    {
+      "source": "/blog/what-is-the-stock-market",
+      "target": "/blog/how-the-economic-machine-works-by-ray-dalio",
+      "text": "How the Economic Machine Works by Ray Dalio"
+    },
+    {
+      "source": "/blog/wilson-s-theorem-fermat-s-little-theorem-euler-s-totient-function",
+      "target": "/blog/extended-euclidean-algorithm",
+      "text": "Extended Euclidean Algorithm"
+    },
+    {
+      "source": "/blog/wilson-s-theorem-fermat-s-little-theorem-euler-s-totient-function",
+      "target": "/blog/randomization-primality-testing-algorithms",
+      "text": "Randomization, Primality Testing Algorithms"
+    }
+  ]
+}
