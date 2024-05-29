@@ -1,8 +1,8 @@
-#baseURL = 'https://akcube.github.io/'
-baseURL = 'http://localhost:8000/'
+baseURL = 'https://akcube.github.io/'
 languageCode = 'en-us'
-title = 'An Optimization Odyssey'
-theme = 'hugo-texify3'
+title = 'Kishore Kumar'
+#title = 'An Optimization Odyssey'
+theme = 'obsidian-hugo-texify3'
 
 [author]
     name = "Kishore Kumar"
@@ -28,7 +28,61 @@ defaultMarkdownHandler = "goldmark"
           block = [['\[', '\]'], ['$$', '$$']]
           inline = [['\(', '\)'], ['$', '$']]
 [params]
+  title = "Kishore Kumar"
+  description = "If we keep holding onto yesterday, what are we going to be tomorrow?"
+  keywords = ["kishore", "kumar", "competitive programming", "optimization", "performance", "algorithms", "finance", "math", "c++", "cpp", "research", "quant", "finance", "ml", "deep learning", "reinforcement learning", "theory"]
+  customCSS = []
+  customJS = []
+  dateFormat = "2 January 2006"
+  emphasisWithDots = true
+  since = "2024"
+  toc = true
+  showWordCount = true
+  showReadingTime = true
+  rootFontSize = "100%"
   math = true
+  enableDuckDuckGoSearchBox = false
+  numberedSubtitles = true
+  enableInlineShortcodes = true
+
+  [params.commentEngine]
+    code = """
+      <script src="https://giscus.app/client.js"
+        data-repo="akcube/akcube.github.io"
+        data-repo-id="MDEwOlJlcG9zaXRvcnkzODg5MzQ5MjA="
+        data-category="General"
+        data-category-id="DIC_kwDOFy6tCM4CfszM"
+        data-mapping="pathname"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="top"
+        data-theme="dark"
+        data-lang="en"
+        data-loading="lazy"
+        crossorigin="anonymous"
+        async>
+      </script>
+    """ 
+
+  [params.buymeacoffee]
+    code = """
+      <script data-name="BMC-Widget" data-cfasync="false" src="https://cdnjs.buymeacoffee.com/1.0.0/widget.prod.min.js" data-id="akcube" data-description="Support me on Buy me a coffee!" data-message="" data-color="#BD5FFF" data-position="Right" data-x_margin="18" data-y_margin="18"></script>
+    """
+
+  [params.sharingbuttons]
+    facebook = true
+    twitter = true
+    email = true
+    linkedin = true
+    reddit = true
+    whatsapp = true
+    hackernews = true
+    telegram = true
+
+[services]
+  [services.googleAnalytics]
+    googleAnalytics = "G-8EMLMJE79J"
 
 [[menus.main]]
 name = 'Home'
