@@ -1,10 +1,10 @@
 ---
 author: Kishore Kumar
 date: 2024-02-08 13:42:01+0530
-doc: 2024-05-29 12:51:10+0530
+doc: 2024-05-30 08:14:31+0530
 title: '`New` and `Delete`'
 topics:
-- cpp
+- Cpp
 ---
 # `new` & `delete`
 

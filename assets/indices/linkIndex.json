@@ -23,6 +23,23 @@
           "text": "Introduction to Complexity Theory"
         }
       ],
+      "/blog/algorithms-for-approximate-string-matching-alignment": [
+        {
+          "source": "/blog/algorithms-for-approximate-string-matching-alignment",
+          "target": "/blog/levenshtein-edit-distance",
+          "text": "Levenshtein Edit Distance"
+        },
+        {
+          "source": "/blog/algorithms-for-approximate-string-matching-alignment",
+          "target": "/blog/levenshtein-edit-distance",
+          "text": "Levenshtein Edit Distance"
+        },
+        {
+          "source": "/blog/algorithms-for-approximate-string-matching-alignment",
+          "target": "/blog/booyer-moore-knuth-morris-pratt-for-exact-matching",
+          "text": "Booyer-Moore \u0026 Knuth-Morris-Pratt for Exact Matching"
+        }
+      ],
       "/blog/analyzing-fibonacci-karatsuba-multiplication": [
         {
           "source": "/blog/analyzing-fibonacci-karatsuba-multiplication",
@@ -56,6 +73,13 @@
           "text": "Derivatives - Options"
         }
       ],
+      "/blog/de-novo-assembly-overlap-graphs": [
+        {
+          "source": "/blog/de-novo-assembly-overlap-graphs",
+          "target": "/blog/dna-sequencing",
+          "text": "DNA Sequencing"
+        }
+      ],
       "/blog/defining-computational-problems": [
         {
           "source": "/blog/defining-computational-problems",
@@ -73,6 +97,18 @@
           "source": "/blog/derivatives-options",
           "target": "/blog/what-is-the-stock-market",
           "text": "What is the Stock Market?"
+        }
+      ],
+      "/blog/dna-sequencing": [
+        {
+          "source": "/blog/dna-sequencing",
+          "target": "/blog/algorithms-for-approximate-string-matching-alignment",
+          "text": "Algorithms for Approximate String Matching - Alignment"
+        },
+        {
+          "source": "/blog/dna-sequencing",
+          "target": "/blog/booyer-moore-knuth-morris-pratt-for-exact-matching",
+          "text": "Booyer-Moore \u0026 Knuth-Morris-Pratt for Exact Matching"
         }
       ],
       "/blog/dp-as-dags-shortest-path-on-dags-lis-in-o-nlogn": [
@@ -197,6 +233,13 @@
           "source": "/blog/set-cover-approximation-algorithms",
           "target": "/blog/activity-selection-huffman-encoding",
           "text": "Activity Selection \u0026 Huffman Encoding"
+        }
+      ],
+      "/blog/shortest-common-superstring-de-brujin-graphs": [
+        {
+          "source": "/blog/shortest-common-superstring-de-brujin-graphs",
+          "target": "/blog/de-novo-assembly-overlap-graphs",
+          "text": "De-Novo Assembly \u0026 Overlap Graphs"
         }
       ],
       "/blog/shortest-reliable-path-floyd-warshall-max-independent-set-tree": [
@@ -331,6 +374,13 @@
           "text": "Activity Selection \u0026 Huffman Encoding"
         }
       ],
+      "/blog/algorithms-for-approximate-string-matching-alignment": [
+        {
+          "source": "/blog/dna-sequencing",
+          "target": "/blog/algorithms-for-approximate-string-matching-alignment",
+          "text": "Algorithms for Approximate String Matching - Alignment"
+        }
+      ],
       "/blog/analyzing-fibonacci-karatsuba-multiplication": [
         {
           "source": "/blog/master-s-theorem-strassen-s-matrix-multiplication-kth-order-statistics",
@@ -353,6 +403,18 @@
           "source": "/blog/how-to-analyze-algorithms-proving-a-lower-bound-for-comparison-based-sorting",
           "target": "/blog/are-there-computational-problems-that-computers-cannot-solve",
           "text": "Are there computational problems that computers cannot solve?"
+        }
+      ],
+      "/blog/booyer-moore-knuth-morris-pratt-for-exact-matching": [
+        {
+          "source": "/blog/algorithms-for-approximate-string-matching-alignment",
+          "target": "/blog/booyer-moore-knuth-morris-pratt-for-exact-matching",
+          "text": "Booyer-Moore \u0026 Knuth-Morris-Pratt for Exact Matching"
+        },
+        {
+          "source": "/blog/dna-sequencing",
+          "target": "/blog/booyer-moore-knuth-morris-pratt-for-exact-matching",
+          "text": "Booyer-Moore \u0026 Knuth-Morris-Pratt for Exact Matching"
         }
       ],
       "/blog/chain-matrix-multiplication": [
@@ -386,6 +448,13 @@
           "text": "Complexity Theory - Reductions"
         }
       ],
+      "/blog/de-novo-assembly-overlap-graphs": [
+        {
+          "source": "/blog/shortest-common-superstring-de-brujin-graphs",
+          "target": "/blog/de-novo-assembly-overlap-graphs",
+          "text": "De-Novo Assembly \u0026 Overlap Graphs"
+        }
+      ],
       "/blog/defining-computational-problems": [
         {
           "source": "/blog/introduction-to-complexity-theory",
@@ -408,6 +477,13 @@
           "source": "/blog/the-economics-of-foreign-exchange-forex",
           "target": "/blog/derivatives-options",
           "text": "Derivatives - Options"
+        }
+      ],
+      "/blog/dna-sequencing": [
+        {
+          "source": "/blog/de-novo-assembly-overlap-graphs",
+          "target": "/blog/dna-sequencing",
+          "text": "DNA Sequencing"
         }
       ],
       "/blog/dp-as-dags-shortest-path-on-dags-lis-in-o-nlogn": [
@@ -467,6 +543,16 @@
       "/blog/levenshtein-edit-distance": [
         {
           "source": "/blog/a-deep-dive-into-the-knapsack-problem",
+          "target": "/blog/levenshtein-edit-distance",
+          "text": "Levenshtein Edit Distance"
+        },
+        {
+          "source": "/blog/algorithms-for-approximate-string-matching-alignment",
+          "target": "/blog/levenshtein-edit-distance",
+          "text": "Levenshtein Edit Distance"
+        },
+        {
+          "source": "/blog/algorithms-for-approximate-string-matching-alignment",
           "target": "/blog/levenshtein-edit-distance",
           "text": "Levenshtein Edit Distance"
         },
@@ -631,6 +717,21 @@
       "text": "Introduction to Complexity Theory"
     },
     {
+      "source": "/blog/algorithms-for-approximate-string-matching-alignment",
+      "target": "/blog/levenshtein-edit-distance",
+      "text": "Levenshtein Edit Distance"
+    },
+    {
+      "source": "/blog/algorithms-for-approximate-string-matching-alignment",
+      "target": "/blog/levenshtein-edit-distance",
+      "text": "Levenshtein Edit Distance"
+    },
+    {
+      "source": "/blog/algorithms-for-approximate-string-matching-alignment",
+      "target": "/blog/booyer-moore-knuth-morris-pratt-for-exact-matching",
+      "text": "Booyer-Moore \u0026 Knuth-Morris-Pratt for Exact Matching"
+    },
+    {
       "source": "/blog/analyzing-fibonacci-karatsuba-multiplication",
       "target": "/blog/the-fast-fourier-transform-fft",
       "text": "The Fast Fourier Transform (FFT)"
@@ -656,6 +757,11 @@
       "text": "Derivatives - Options"
     },
     {
+      "source": "/blog/de-novo-assembly-overlap-graphs",
+      "target": "/blog/dna-sequencing",
+      "text": "DNA Sequencing"
+    },
+    {
       "source": "/blog/defining-computational-problems",
       "target": "/blog/are-there-computational-problems-that-computers-cannot-solve",
       "text": "Are there computational problems that computers cannot solve?"
@@ -669,6 +775,16 @@
       "source": "/blog/derivatives-options",
       "target": "/blog/what-is-the-stock-market",
       "text": "What is the Stock Market?"
+    },
+    {
+      "source": "/blog/dna-sequencing",
+      "target": "/blog/algorithms-for-approximate-string-matching-alignment",
+      "text": "Algorithms for Approximate String Matching - Alignment"
+    },
+    {
+      "source": "/blog/dna-sequencing",
+      "target": "/blog/booyer-moore-knuth-morris-pratt-for-exact-matching",
+      "text": "Booyer-Moore \u0026 Knuth-Morris-Pratt for Exact Matching"
     },
     {
       "source": "/blog/dp-as-dags-shortest-path-on-dags-lis-in-o-nlogn",
@@ -769,6 +885,11 @@
       "source": "/blog/set-cover-approximation-algorithms",
       "target": "/blog/activity-selection-huffman-encoding",
       "text": "Activity Selection \u0026 Huffman Encoding"
+    },
+    {
+      "source": "/blog/shortest-common-superstring-de-brujin-graphs",
+      "target": "/blog/de-novo-assembly-overlap-graphs",
+      "text": "De-Novo Assembly \u0026 Overlap Graphs"
     },
     {
       "source": "/blog/shortest-reliable-path-floyd-warshall-max-independent-set-tree",

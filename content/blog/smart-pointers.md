@@ -1,10 +1,10 @@
 ---
 author: Kishore Kumar
 date: 2024-02-10 04:12:11+0530
-doc: 2024-05-29 12:51:58+0530
+doc: 2024-05-30 08:14:36+0530
 title: Smart Pointers
 topics:
-- cpp
+- Cpp
 ---
 Before reading this section, I recommend reading the previous section on [`new` and `delete`](/blog/new-and-delete) to get a better idea of the problem(s) we have with memory allocation and manipulation and how we're trying to fix them. We figured out how to workaround / solve the uninitialized memory problem, but we still have to deal with the issue of memory leaks and dangling pointers.
 # Preface
