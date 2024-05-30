@@ -1,7 +1,7 @@
 ---
 author: Kishore Kumar
 date: 2022-10-15 20:02:29+0530
-doc: 2024-05-29 09:25:31+0530
+doc: 2024-05-30 05:39:28+0530
 title: A Deep Dive Into the Knapsack Problem
 topics:
 - Algorithm-Analysis
@@ -143,7 +143,11 @@ The [first problem](https://atcoder.jp/contests/dp/tasks/dp_d) is simply the sta
 
 The constraints for it were as follows,
 
-$$ 1 \leq N \leq 100 \\ 1 \leq W \leq 10^5 \\ 1 \leq w_i \leq W \\ 1 \leq v_i \leq 10^9 $$
+$$
+\begin{aligned}
+1 \leq N \leq 100 \\ 1 \leq W \leq 10^5 \\ 1 \leq w_i \leq W \\ 1 \leq v_i \leq 10^9 
+\end{aligned}
+$$
 
 A $O(nW)$ solution would take around $1e7$ operations which should pass comfortably.
 
@@ -153,7 +157,11 @@ Here's a link to my submission: [Submission Link](https://atcoder.jp/contests/dp
 
 The [second problem](https://atcoder.jp/contests/dp/tasks/dp_e) is a little different. It asks the same question, but for different constraints.
 
-$$ 1 \leq N \leq 100 \\ 1 \leq W \leq 10^9 \\ 1 \leq w_i \leq W \\ 1 \leq v_i \leq 10^3 $$
+$$ 
+\begin{aligned}
+1 \leq N \leq 100 \\ 1 \leq W \leq 10^9 \\ 1 \leq w_i \leq W \\ 1 \leq v_i \leq 10^3 
+\end{aligned}
+$$
 
 Notice that $W$ is now $10^9$. $O(nW)$ would now take 1e11 operations. This would practically have a very slow running time in comparison to our previous ~1e7 operation solution.
 
