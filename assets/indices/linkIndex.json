@@ -133,6 +133,13 @@
           "text": "Complexity Theory - Reductions"
         }
       ],
+      "/blog/finite-and-infinite-sums": [
+        {
+          "source": "/blog/finite-and-infinite-sums",
+          "target": "/blog/riemann-series-rearrangement",
+          "text": "Riemann Series Rearrangement"
+        }
+      ],
       "/blog/how-the-economic-machine-works-by-ray-dalio": [
         {
           "source": "/blog/how-the-economic-machine-works-by-ray-dalio",
@@ -621,6 +628,13 @@
           "text": "Randomization, Primality Testing Algorithms"
         }
       ],
+      "/blog/riemann-series-rearrangement": [
+        {
+          "source": "/blog/finite-and-infinite-sums",
+          "target": "/blog/riemann-series-rearrangement",
+          "text": "Riemann Series Rearrangement"
+        }
+      ],
       "/blog/set-cover-approximation-algorithms": [
         {
           "source": "/blog/dp-as-dags-shortest-path-on-dags-lis-in-o-nlogn",
@@ -805,6 +819,11 @@
       "source": "/blog/dp-as-dags-shortest-path-on-dags-lis-in-o-nlogn",
       "target": "/blog/complexity-theory-reductions",
       "text": "Complexity Theory - Reductions"
+    },
+    {
+      "source": "/blog/finite-and-infinite-sums",
+      "target": "/blog/riemann-series-rearrangement",
+      "text": "Riemann Series Rearrangement"
     },
     {
       "source": "/blog/how-the-economic-machine-works-by-ray-dalio",
