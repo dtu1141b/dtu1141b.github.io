@@ -1,7 +1,7 @@
 ---
 author: Kishore Kumar
-date: 2022-04-20 04:51:54+0530
-doc: 2024-05-31 07:04:34+0530
+date: 2022-04-12 04:51:54+0530
+doc: 2024-05-31 12:08:57+0530
 title: Brent's Theorem & Task Level Parallelism
 topics:
 - High-Performance-Computing

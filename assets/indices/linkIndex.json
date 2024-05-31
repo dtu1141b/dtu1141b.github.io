@@ -226,6 +226,33 @@
           "text": "Analyzing Fibonacci \u0026 Karatsuba Multiplication"
         }
       ],
+      "/blog/mega-project-kblas-writing-a-benchmark-library-in-c-optimizing-l1-l2-basic-linear-algebra-subprograms": [
+        {
+          "source": "/blog/mega-project-kblas-writing-a-benchmark-library-in-c-optimizing-l1-l2-basic-linear-algebra-subprograms",
+          "target": "/blog/brent-s-theorem-task-level-parallelism",
+          "text": "Brent's Theorem \u0026 Task Level Parallelism"
+        },
+        {
+          "source": "/blog/mega-project-kblas-writing-a-benchmark-library-in-c-optimizing-l1-l2-basic-linear-algebra-subprograms",
+          "target": "/blog/vectorization-analyzing-loop-dependencies",
+          "text": "Vectorization \u0026 Analyzing Loop Dependencies"
+        },
+        {
+          "source": "/blog/mega-project-kblas-writing-a-benchmark-library-in-c-optimizing-l1-l2-basic-linear-algebra-subprograms",
+          "target": "/blog/parallelism-with-omp",
+          "text": "Parallelism with OMP"
+        },
+        {
+          "source": "/blog/mega-project-kblas-writing-a-benchmark-library-in-c-optimizing-l1-l2-basic-linear-algebra-subprograms",
+          "target": "/blog/profiling-a-program",
+          "text": "Profiling a Program"
+        },
+        {
+          "source": "/blog/mega-project-kblas-writing-a-benchmark-library-in-c-optimizing-l1-l2-basic-linear-algebra-subprograms",
+          "target": "/blog/theoretical-metrics-for-benchmarking",
+          "text": "Theoretical Metrics for Benchmarking"
+        }
+      ],
       "/blog/more-greedy-algorithms-kruskal-s-disjoint-set-union": [
         {
           "source": "/blog/more-greedy-algorithms-kruskal-s-disjoint-set-union",
@@ -491,6 +518,11 @@
           "text": "Brent's Theorem \u0026 Task Level Parallelism"
         },
         {
+          "source": "/blog/mega-project-kblas-writing-a-benchmark-library-in-c-optimizing-l1-l2-basic-linear-algebra-subprograms",
+          "target": "/blog/brent-s-theorem-task-level-parallelism",
+          "text": "Brent's Theorem \u0026 Task Level Parallelism"
+        },
+        {
           "source": "/blog/theoretical-metrics-for-benchmarking",
           "target": "/blog/brent-s-theorem-task-level-parallelism",
           "text": "Brent's Theorem \u0026 Task Level Parallelism"
@@ -691,6 +723,11 @@
           "source": "/blog/flynn-s-taxonomy",
           "target": "/blog/parallelism-with-omp",
           "text": "Parallelism with OMP"
+        },
+        {
+          "source": "/blog/mega-project-kblas-writing-a-benchmark-library-in-c-optimizing-l1-l2-basic-linear-algebra-subprograms",
+          "target": "/blog/parallelism-with-omp",
+          "text": "Parallelism with OMP"
         }
       ],
       "/blog/power-of-compound-interest": [
@@ -701,6 +738,11 @@
         }
       ],
       "/blog/profiling-a-program": [
+        {
+          "source": "/blog/mega-project-kblas-writing-a-benchmark-library-in-c-optimizing-l1-l2-basic-linear-algebra-subprograms",
+          "target": "/blog/profiling-a-program",
+          "text": "Profiling a Program"
+        },
         {
           "source": "/blog/theoretical-metrics-for-benchmarking",
           "target": "/blog/profiling-a-program",
@@ -761,9 +803,21 @@
           "text": "The Fast Fourier Transform (FFT)"
         }
       ],
+      "/blog/theoretical-metrics-for-benchmarking": [
+        {
+          "source": "/blog/mega-project-kblas-writing-a-benchmark-library-in-c-optimizing-l1-l2-basic-linear-algebra-subprograms",
+          "target": "/blog/theoretical-metrics-for-benchmarking",
+          "text": "Theoretical Metrics for Benchmarking"
+        }
+      ],
       "/blog/vectorization-analyzing-loop-dependencies": [
         {
           "source": "/blog/flynn-s-taxonomy",
+          "target": "/blog/vectorization-analyzing-loop-dependencies",
+          "text": "Vectorization \u0026 Analyzing Loop Dependencies"
+        },
+        {
+          "source": "/blog/mega-project-kblas-writing-a-benchmark-library-in-c-optimizing-l1-l2-basic-linear-algebra-subprograms",
           "target": "/blog/vectorization-analyzing-loop-dependencies",
           "text": "Vectorization \u0026 Analyzing Loop Dependencies"
         },
@@ -1006,6 +1060,31 @@
       "source": "/blog/master-s-theorem-strassen-s-matrix-multiplication-kth-order-statistics",
       "target": "/blog/analyzing-fibonacci-karatsuba-multiplication",
       "text": "Analyzing Fibonacci \u0026 Karatsuba Multiplication"
+    },
+    {
+      "source": "/blog/mega-project-kblas-writing-a-benchmark-library-in-c-optimizing-l1-l2-basic-linear-algebra-subprograms",
+      "target": "/blog/brent-s-theorem-task-level-parallelism",
+      "text": "Brent's Theorem \u0026 Task Level Parallelism"
+    },
+    {
+      "source": "/blog/mega-project-kblas-writing-a-benchmark-library-in-c-optimizing-l1-l2-basic-linear-algebra-subprograms",
+      "target": "/blog/vectorization-analyzing-loop-dependencies",
+      "text": "Vectorization \u0026 Analyzing Loop Dependencies"
+    },
+    {
+      "source": "/blog/mega-project-kblas-writing-a-benchmark-library-in-c-optimizing-l1-l2-basic-linear-algebra-subprograms",
+      "target": "/blog/parallelism-with-omp",
+      "text": "Parallelism with OMP"
+    },
+    {
+      "source": "/blog/mega-project-kblas-writing-a-benchmark-library-in-c-optimizing-l1-l2-basic-linear-algebra-subprograms",
+      "target": "/blog/profiling-a-program",
+      "text": "Profiling a Program"
+    },
+    {
+      "source": "/blog/mega-project-kblas-writing-a-benchmark-library-in-c-optimizing-l1-l2-basic-linear-algebra-subprograms",
+      "target": "/blog/theoretical-metrics-for-benchmarking",
+      "text": "Theoretical Metrics for Benchmarking"
     },
     {
       "source": "/blog/more-greedy-algorithms-kruskal-s-disjoint-set-union",
