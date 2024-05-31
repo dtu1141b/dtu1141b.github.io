@@ -40,6 +40,13 @@
           "text": "Booyer-Moore \u0026 Knuth-Morris-Pratt for Exact Matching"
         }
       ],
+      "/blog/amdahl-s-law-gustafson-s-law": [
+        {
+          "source": "/blog/amdahl-s-law-gustafson-s-law",
+          "target": "/blog/brent-s-theorem-task-level-parallelism",
+          "text": "Brent's Theorem \u0026 Task Level Parallelism"
+        }
+      ],
       "/blog/analyzing-fibonacci-karatsuba-multiplication": [
         {
           "source": "/blog/analyzing-fibonacci-karatsuba-multiplication",
@@ -140,6 +147,28 @@
           "text": "Riemann Series Rearrangement"
         }
       ],
+      "/blog/flynn-s-taxonomy": [
+        {
+          "source": "/blog/flynn-s-taxonomy",
+          "target": "/blog/parallelism-with-omp",
+          "text": "Parallelism with OMP"
+        },
+        {
+          "source": "/blog/flynn-s-taxonomy",
+          "target": "/blog/brent-s-theorem-task-level-parallelism",
+          "text": "Brent's Theorem \u0026 Task Level Parallelism"
+        },
+        {
+          "source": "/blog/flynn-s-taxonomy",
+          "target": "/blog/vectorization-analyzing-loop-dependencies",
+          "text": "Vectorization \u0026 Analyzing Loop Dependencies"
+        },
+        {
+          "source": "/blog/flynn-s-taxonomy",
+          "target": "/https//en.wikipedia.org/wiki/MapReducehttps//en.wikipedia.org/wiki/MapReduce",
+          "text": "Map Reduce"
+        }
+      ],
       "/blog/how-the-economic-machine-works-by-ray-dalio": [
         {
           "source": "/blog/how-the-economic-machine-works-by-ray-dalio",
@@ -214,6 +243,13 @@
           "source": "/blog/new-and-delete",
           "target": "/blog/smart-pointers",
           "text": "Smart Pointers"
+        }
+      ],
+      "/blog/parallelism-with-omp": [
+        {
+          "source": "/blog/parallelism-with-omp",
+          "target": "/blog/vectorization-analyzing-loop-dependencies",
+          "text": "Vectorization \u0026 Analyzing Loop Dependencies"
         }
       ],
       "/blog/public-key-cryptography-coming-up-with-rsa": [
@@ -331,6 +367,25 @@
           "text": "Derivatives - Options"
         }
       ],
+      "/blog/theoretical-metrics-for-benchmarking": [
+        {
+          "source": "/blog/theoretical-metrics-for-benchmarking",
+          "target": "/blog/profiling-a-program",
+          "text": "Profiling a Program"
+        },
+        {
+          "source": "/blog/theoretical-metrics-for-benchmarking",
+          "target": "/blog/brent-s-theorem-task-level-parallelism",
+          "text": "Brent's Theorem \u0026 Task Level Parallelism"
+        }
+      ],
+      "/blog/vectorization-analyzing-loop-dependencies": [
+        {
+          "source": "/blog/vectorization-analyzing-loop-dependencies",
+          "target": "/blog/flynn-s-taxonomy",
+          "text": "Flynn's Taxonomy"
+        }
+      ],
       "/blog/what-is-the-stock-market": [
         {
           "source": "/blog/what-is-the-stock-market",
@@ -424,6 +479,23 @@
           "text": "Booyer-Moore \u0026 Knuth-Morris-Pratt for Exact Matching"
         }
       ],
+      "/blog/brent-s-theorem-task-level-parallelism": [
+        {
+          "source": "/blog/amdahl-s-law-gustafson-s-law",
+          "target": "/blog/brent-s-theorem-task-level-parallelism",
+          "text": "Brent's Theorem \u0026 Task Level Parallelism"
+        },
+        {
+          "source": "/blog/flynn-s-taxonomy",
+          "target": "/blog/brent-s-theorem-task-level-parallelism",
+          "text": "Brent's Theorem \u0026 Task Level Parallelism"
+        },
+        {
+          "source": "/blog/theoretical-metrics-for-benchmarking",
+          "target": "/blog/brent-s-theorem-task-level-parallelism",
+          "text": "Brent's Theorem \u0026 Task Level Parallelism"
+        }
+      ],
       "/blog/chain-matrix-multiplication": [
         {
           "source": "/blog/a-deep-dive-into-the-knapsack-problem",
@@ -510,6 +582,13 @@
           "source": "/blog/wilson-s-theorem-fermat-s-little-theorem-euler-s-totient-function",
           "target": "/blog/extended-euclidean-algorithm",
           "text": "Extended Euclidean Algorithm"
+        }
+      ],
+      "/blog/flynn-s-taxonomy": [
+        {
+          "source": "/blog/vectorization-analyzing-loop-dependencies",
+          "target": "/blog/flynn-s-taxonomy",
+          "text": "Flynn's Taxonomy"
         }
       ],
       "/blog/garbage-collectors": [
@@ -607,11 +686,25 @@
           "text": "P vs NP"
         }
       ],
+      "/blog/parallelism-with-omp": [
+        {
+          "source": "/blog/flynn-s-taxonomy",
+          "target": "/blog/parallelism-with-omp",
+          "text": "Parallelism with OMP"
+        }
+      ],
       "/blog/power-of-compound-interest": [
         {
           "source": "/blog/how-the-economic-machine-works-by-ray-dalio",
           "target": "/blog/power-of-compound-interest",
           "text": "POWER OF COMPOUND INTEREST"
+        }
+      ],
+      "/blog/profiling-a-program": [
+        {
+          "source": "/blog/theoretical-metrics-for-benchmarking",
+          "target": "/blog/profiling-a-program",
+          "text": "Profiling a Program"
         }
       ],
       "/blog/raii-resource-acquisition-is-initialization": [
@@ -668,6 +761,18 @@
           "text": "The Fast Fourier Transform (FFT)"
         }
       ],
+      "/blog/vectorization-analyzing-loop-dependencies": [
+        {
+          "source": "/blog/flynn-s-taxonomy",
+          "target": "/blog/vectorization-analyzing-loop-dependencies",
+          "text": "Vectorization \u0026 Analyzing Loop Dependencies"
+        },
+        {
+          "source": "/blog/parallelism-with-omp",
+          "target": "/blog/vectorization-analyzing-loop-dependencies",
+          "text": "Vectorization \u0026 Analyzing Loop Dependencies"
+        }
+      ],
       "/blog/what-is-the-stock-market": [
         {
           "source": "/blog/derivatives-options",
@@ -705,6 +810,13 @@
           "source": "/blog/randomization-primality-testing-algorithms",
           "target": "/blog/wilson-s-theorem-fermat-s-little-theorem-euler-s-totient-function",
           "text": "Wilson's Theorem, Fermat's Little Theorem \u0026 Euler's Totient Function"
+        }
+      ],
+      "/https//en.wikipedia.org/wiki/MapReducehttps//en.wikipedia.org/wiki/MapReduce": [
+        {
+          "source": "/blog/flynn-s-taxonomy",
+          "target": "/https//en.wikipedia.org/wiki/MapReducehttps//en.wikipedia.org/wiki/MapReduce",
+          "text": "Map Reduce"
         }
       ]
     }
@@ -744,6 +856,11 @@
       "source": "/blog/algorithms-for-approximate-string-matching-alignment",
       "target": "/blog/booyer-moore-knuth-morris-pratt-for-exact-matching",
       "text": "Booyer-Moore \u0026 Knuth-Morris-Pratt for Exact Matching"
+    },
+    {
+      "source": "/blog/amdahl-s-law-gustafson-s-law",
+      "target": "/blog/brent-s-theorem-task-level-parallelism",
+      "text": "Brent's Theorem \u0026 Task Level Parallelism"
     },
     {
       "source": "/blog/analyzing-fibonacci-karatsuba-multiplication",
@@ -826,6 +943,26 @@
       "text": "Riemann Series Rearrangement"
     },
     {
+      "source": "/blog/flynn-s-taxonomy",
+      "target": "/blog/parallelism-with-omp",
+      "text": "Parallelism with OMP"
+    },
+    {
+      "source": "/blog/flynn-s-taxonomy",
+      "target": "/blog/brent-s-theorem-task-level-parallelism",
+      "text": "Brent's Theorem \u0026 Task Level Parallelism"
+    },
+    {
+      "source": "/blog/flynn-s-taxonomy",
+      "target": "/blog/vectorization-analyzing-loop-dependencies",
+      "text": "Vectorization \u0026 Analyzing Loop Dependencies"
+    },
+    {
+      "source": "/blog/flynn-s-taxonomy",
+      "target": "/https//en.wikipedia.org/wiki/MapReducehttps//en.wikipedia.org/wiki/MapReduce",
+      "text": "Map Reduce"
+    },
+    {
       "source": "/blog/how-the-economic-machine-works-by-ray-dalio",
       "target": "/blog/power-of-compound-interest",
       "text": "POWER OF COMPOUND INTEREST"
@@ -884,6 +1021,11 @@
       "source": "/blog/new-and-delete",
       "target": "/blog/smart-pointers",
       "text": "Smart Pointers"
+    },
+    {
+      "source": "/blog/parallelism-with-omp",
+      "target": "/blog/vectorization-analyzing-loop-dependencies",
+      "text": "Vectorization \u0026 Analyzing Loop Dependencies"
     },
     {
       "source": "/blog/public-key-cryptography-coming-up-with-rsa",
@@ -979,6 +1121,21 @@
       "source": "/blog/the-economics-of-foreign-exchange-forex",
       "target": "/blog/derivatives-options",
       "text": "Derivatives - Options"
+    },
+    {
+      "source": "/blog/theoretical-metrics-for-benchmarking",
+      "target": "/blog/profiling-a-program",
+      "text": "Profiling a Program"
+    },
+    {
+      "source": "/blog/theoretical-metrics-for-benchmarking",
+      "target": "/blog/brent-s-theorem-task-level-parallelism",
+      "text": "Brent's Theorem \u0026 Task Level Parallelism"
+    },
+    {
+      "source": "/blog/vectorization-analyzing-loop-dependencies",
+      "target": "/blog/flynn-s-taxonomy",
+      "text": "Flynn's Taxonomy"
     },
     {
       "source": "/blog/what-is-the-stock-market",
