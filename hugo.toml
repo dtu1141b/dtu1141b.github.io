@@ -82,7 +82,7 @@ defaultMarkdownHandler = "goldmark"
 
 [services]
   [services.googleAnalytics]
-    googleAnalytics = "G-8EMLMJE79J"
+    id = "G-8EMLMJE79J"
 
 [[menus.main]]
 name = 'Home'
