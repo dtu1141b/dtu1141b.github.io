@@ -1,6 +1,28 @@
 {
   "index": {
     "links": {
+      "/blog/a-c-programmer-s-guide-to-c": [
+        {
+          "source": "/blog/a-c-programmer-s-guide-to-c",
+          "target": "/blog/but-it-works-on-my-machine-beginners-guide-to-undefined-behavior-in-c",
+          "text": "But it works on my machine! - Beginners guide to Undefined Behavior in C++"
+        },
+        {
+          "source": "/blog/a-c-programmer-s-guide-to-c",
+          "target": "/blog/templates-in-c",
+          "text": "Templates in C++"
+        },
+        {
+          "source": "/blog/a-c-programmer-s-guide-to-c",
+          "target": "/blog/what-are-iterators-in-c",
+          "text": "What are Iterators in C++?"
+        },
+        {
+          "source": "/blog/a-c-programmer-s-guide-to-c",
+          "target": "/blog/sfinae",
+          "text": "SFINAE"
+        }
+      ],
       "/blog/a-deep-dive-into-the-knapsack-problem": [
         {
           "source": "/blog/a-deep-dive-into-the-knapsack-problem",
@@ -528,6 +550,13 @@
           "text": "Brent's Theorem \u0026 Task Level Parallelism"
         }
       ],
+      "/blog/but-it-works-on-my-machine-beginners-guide-to-undefined-behavior-in-c": [
+        {
+          "source": "/blog/a-c-programmer-s-guide-to-c",
+          "target": "/blog/but-it-works-on-my-machine-beginners-guide-to-undefined-behavior-in-c",
+          "text": "But it works on my machine! - Beginners guide to Undefined Behavior in C++"
+        }
+      ],
       "/blog/chain-matrix-multiplication": [
         {
           "source": "/blog/a-deep-dive-into-the-knapsack-problem",
@@ -777,11 +806,25 @@
           "text": "Set Cover \u0026 Approximation Algorithms"
         }
       ],
+      "/blog/sfinae": [
+        {
+          "source": "/blog/a-c-programmer-s-guide-to-c",
+          "target": "/blog/sfinae",
+          "text": "SFINAE"
+        }
+      ],
       "/blog/smart-pointers": [
         {
           "source": "/blog/new-and-delete",
           "target": "/blog/smart-pointers",
           "text": "Smart Pointers"
+        }
+      ],
+      "/blog/templates-in-c": [
+        {
+          "source": "/blog/a-c-programmer-s-guide-to-c",
+          "target": "/blog/templates-in-c",
+          "text": "Templates in C++"
         }
       ],
       "/blog/the-efficient-market-hypothesis": [
@@ -825,6 +868,13 @@
           "source": "/blog/parallelism-with-omp",
           "target": "/blog/vectorization-analyzing-loop-dependencies",
           "text": "Vectorization \u0026 Analyzing Loop Dependencies"
+        }
+      ],
+      "/blog/what-are-iterators-in-c": [
+        {
+          "source": "/blog/a-c-programmer-s-guide-to-c",
+          "target": "/blog/what-are-iterators-in-c",
+          "text": "What are Iterators in C++?"
         }
       ],
       "/blog/what-is-the-stock-market": [
@@ -876,6 +926,26 @@
     }
   },
   "links": [
+    {
+      "source": "/blog/a-c-programmer-s-guide-to-c",
+      "target": "/blog/but-it-works-on-my-machine-beginners-guide-to-undefined-behavior-in-c",
+      "text": "But it works on my machine! - Beginners guide to Undefined Behavior in C++"
+    },
+    {
+      "source": "/blog/a-c-programmer-s-guide-to-c",
+      "target": "/blog/templates-in-c",
+      "text": "Templates in C++"
+    },
+    {
+      "source": "/blog/a-c-programmer-s-guide-to-c",
+      "target": "/blog/what-are-iterators-in-c",
+      "text": "What are Iterators in C++?"
+    },
+    {
+      "source": "/blog/a-c-programmer-s-guide-to-c",
+      "target": "/blog/sfinae",
+      "text": "SFINAE"
+    },
     {
       "source": "/blog/a-deep-dive-into-the-knapsack-problem",
       "target": "/blog/dp-as-dags-shortest-path-on-dags-lis-in-o-nlogn",
