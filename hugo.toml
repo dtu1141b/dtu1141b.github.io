@@ -1,7 +1,6 @@
 baseURL = 'https://akcube.github.io/'
 languageCode = 'en-us'
 title = 'Kishore Kumar'
-#title = 'An Optimization Odyssey'
 theme = 'obsidian-hugo-texify3'
 
 [author]
@@ -30,7 +29,7 @@ defaultMarkdownHandler = "goldmark"
 [params]
   title = "Kishore Kumar"
   description = "If we keep holding onto yesterday, what are we going to be tomorrow?"
-  keywords = ["kishore", "kumar", "competitive programming", "optimization", "performance", "algorithms", "finance", "math", "c++", "cpp", "research", "quant", "finance", "ml", "deep learning", "reinforcement learning", "theory"]
+  keywords = ["kishore", "kumar", "akcube", "iiit", "iiith", "iiit-h", "international institute of information technology", "ICPC", "competitive programming", "optimization", "performance", "algorithms", "finance", "math", "c++", "cpp", "research", "quant", "finance", "ml", "deep learning", "reinforcement learning", "theory"]
   customCSS = []
   customJS = []
   dateFormat = "2 January 2006"
