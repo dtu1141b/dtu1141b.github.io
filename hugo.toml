@@ -1,6 +1,7 @@
 baseURL = 'https://akcube.github.io/'
 languageCode = 'en-us'
 title = 'Kishore Kumar'
+enableRobotsTXT = true
 theme = 'obsidian-hugo-texify3'
 
 [author]
