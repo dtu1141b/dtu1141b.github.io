@@ -1,10 +1,12 @@
 ---
 author: Kishore Kumar
-date: 2024-10-23 21:30:37+0530
-doc: 2024-10-23 21:27:56+0530
+date: 2024-10-25 20:20:51+0530
+doc: 2024-10-25 20:20:24+0530
 title: '"In Search Of An Understandable Consensus Algorithm (Extended Version)" -
   Raft'
-topics: []
+topics:
+- Paper-Reading
+- Distributed-Systems
 ---
 # Abstract
 These notes are taken from my reading of the original paper, [In Search of an Understandable Consensus Algorithm (Extended Version)](https://raft.github.io/raft.pdf) by [Diego Ongaro](https://scholar.google.com/citations?user=oBe2P2EAAAAJ&hl=en) and [John Ousterhout](https://scholar.google.com/citations?user=nDH-AqwAAAAJ&hl=en), a video lecture by Diego on YouTube: [Designing for Understandability: The Raft Consensus Algorithm](https://www.youtube.com/watch?v=vYp4LYbnnW8) and another by [Core Dump](https://www.youtube.com/@core_dump): [Understand RAFT without breaking your brain](https://www.youtube.com/@core_dump).  
