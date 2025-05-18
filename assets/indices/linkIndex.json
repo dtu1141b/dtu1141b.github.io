@@ -210,6 +210,23 @@
           "text": "Are there computational problems that computers cannot solve?"
         }
       ],
+      "/blog/in-search-of-an-understandable-consensus-algorithm-extended-version-raft": [
+        {
+          "source": "/blog/in-search-of-an-understandable-consensus-algorithm-extended-version-raft",
+          "target": "/blog/how-to-analyze-algorithms-proving-a-lower-bound-for-comparison-based-sorting",
+          "text": "How to Analyze Algorithms? Proving a Lower Bound for Comparison Based Sorting"
+        },
+        {
+          "source": "/blog/in-search-of-an-understandable-consensus-algorithm-extended-version-raft",
+          "target": "/blog/tidb-a-raft-based-htap-database",
+          "text": "TiDB - A Raft-based HTAP Database"
+        },
+        {
+          "source": "/blog/in-search-of-an-understandable-consensus-algorithm-extended-version-raft",
+          "target": "/blog/the-google-file-system",
+          "text": "The Google File System"
+        }
+      ],
       "/blog/introduction-to-complexity-theory": [
         {
           "source": "/blog/introduction-to-complexity-theory",
@@ -292,6 +309,18 @@
           "source": "/blog/new-and-delete",
           "target": "/blog/smart-pointers",
           "text": "Smart Pointers"
+        }
+      ],
+      "/blog/ottertune-automatic-database-management-system-tuning-through-large-scale-machine-learning": [
+        {
+          "source": "/blog/ottertune-automatic-database-management-system-tuning-through-large-scale-machine-learning",
+          "target": "/blog/lasso-ridge-elastic-net-regression",
+          "text": "Lasso / Ridge / Elastic Net Regression"
+        },
+        {
+          "source": "/blog/ottertune-automatic-database-management-system-tuning-through-large-scale-machine-learning",
+          "target": "/blog/gaussian-process-regression",
+          "text": "Gaussian Process Regression"
         }
       ],
       "/blog/parallelism-with-omp": [
@@ -428,11 +457,45 @@
           "text": "Brent's Theorem \u0026 Task Level Parallelism"
         }
       ],
+      "/blog/towards-a-completely-self-driven-dbms-challenges-ottertune-faced": [
+        {
+          "source": "/blog/towards-a-completely-self-driven-dbms-challenges-ottertune-faced",
+          "target": "/blog/ottertune-automatic-database-management-system-tuning-through-large-scale-machine-learning",
+          "text": "OtterTune - Automatic Database Management System Tuning Through Large-scale Machine Learning"
+        },
+        {
+          "source": "/blog/towards-a-completely-self-driven-dbms-challenges-ottertune-faced",
+          "target": "/blog/ottertune-automatic-database-management-system-tuning-through-large-scale-machine-learning",
+          "text": "OtterTune - Automatic Database Management System Tuning Through Large-scale Machine Learning"
+        }
+      ],
       "/blog/vectorization-analyzing-loop-dependencies": [
         {
           "source": "/blog/vectorization-analyzing-loop-dependencies",
           "target": "/blog/flynn-s-taxonomy",
           "text": "Flynn's Taxonomy"
+        }
+      ],
+      "/blog/what-goes-around-comes-around-the-history-of-database-systems-part-1-1960-2000": [
+        {
+          "source": "/blog/what-goes-around-comes-around-the-history-of-database-systems-part-1-1960-2000",
+          "target": "/blog/b-tree",
+          "text": "B+ Tree"
+        },
+        {
+          "source": "/blog/what-goes-around-comes-around-the-history-of-database-systems-part-1-1960-2000",
+          "target": "/blog/hashtable",
+          "text": "Hashtable"
+        },
+        {
+          "source": "/blog/what-goes-around-comes-around-the-history-of-database-systems-part-1-1960-2000",
+          "target": "/blog/what-goes-around-comes-around-and-around-the-history-of-database-systems-part-2-2000-2020",
+          "text": "What Goes Around Comes Around... and Around... - The History of Database Systems - Part 2 - (2000 - 2020)"
+        },
+        {
+          "source": "/blog/what-goes-around-comes-around-the-history-of-database-systems-part-1-1960-2000",
+          "target": "/blog/normalization-theory-in-dbms",
+          "text": "Normalization Theory in DBMS"
         }
       ],
       "/blog/what-is-the-stock-market": [
@@ -514,6 +577,13 @@
           "source": "/blog/how-to-analyze-algorithms-proving-a-lower-bound-for-comparison-based-sorting",
           "target": "/blog/are-there-computational-problems-that-computers-cannot-solve",
           "text": "Are there computational problems that computers cannot solve?"
+        }
+      ],
+      "/blog/b-tree": [
+        {
+          "source": "/blog/what-goes-around-comes-around-the-history-of-database-systems-part-1-1960-2000",
+          "target": "/blog/b-tree",
+          "text": "B+ Tree"
         }
       ],
       "/blog/booyer-moore-knuth-morris-pratt-for-exact-matching": [
@@ -659,11 +729,25 @@
           "text": "garbage collectors"
         }
       ],
+      "/blog/gaussian-process-regression": [
+        {
+          "source": "/blog/ottertune-automatic-database-management-system-tuning-through-large-scale-machine-learning",
+          "target": "/blog/gaussian-process-regression",
+          "text": "Gaussian Process Regression"
+        }
+      ],
       "/blog/great-depression": [
         {
           "source": "/blog/the-economics-of-foreign-exchange-forex",
           "target": "/blog/great-depression",
           "text": "Great Depression"
+        }
+      ],
+      "/blog/hashtable": [
+        {
+          "source": "/blog/what-goes-around-comes-around-the-history-of-database-systems-part-1-1960-2000",
+          "target": "/blog/hashtable",
+          "text": "Hashtable"
         }
       ],
       "/blog/how-the-economic-machine-works-by-ray-dalio": [
@@ -678,6 +762,11 @@
           "source": "/blog/analyzing-fibonacci-karatsuba-multiplication",
           "target": "/blog/how-to-analyze-algorithms-proving-a-lower-bound-for-comparison-based-sorting",
           "text": "How to analyze algorithms? Proving a lower bound for comparison based sorting"
+        },
+        {
+          "source": "/blog/in-search-of-an-understandable-consensus-algorithm-extended-version-raft",
+          "target": "/blog/how-to-analyze-algorithms-proving-a-lower-bound-for-comparison-based-sorting",
+          "text": "How to Analyze Algorithms? Proving a Lower Bound for Comparison Based Sorting"
         }
       ],
       "/blog/introduction-to-complexity-theory": [
@@ -685,6 +774,13 @@
           "source": "/blog/a-deep-dive-into-the-knapsack-problem",
           "target": "/blog/introduction-to-complexity-theory",
           "text": "Introduction to Complexity Theory"
+        }
+      ],
+      "/blog/lasso-ridge-elastic-net-regression": [
+        {
+          "source": "/blog/ottertune-automatic-database-management-system-tuning-through-large-scale-machine-learning",
+          "target": "/blog/lasso-ridge-elastic-net-regression",
+          "text": "Lasso / Ridge / Elastic Net Regression"
         }
       ],
       "/blog/levenshtein-edit-distance": [
@@ -738,6 +834,25 @@
           "source": "/blog/smart-pointers",
           "target": "/blog/new-and-delete",
           "text": "new and delete"
+        }
+      ],
+      "/blog/normalization-theory-in-dbms": [
+        {
+          "source": "/blog/what-goes-around-comes-around-the-history-of-database-systems-part-1-1960-2000",
+          "target": "/blog/normalization-theory-in-dbms",
+          "text": "Normalization Theory in DBMS"
+        }
+      ],
+      "/blog/ottertune-automatic-database-management-system-tuning-through-large-scale-machine-learning": [
+        {
+          "source": "/blog/towards-a-completely-self-driven-dbms-challenges-ottertune-faced",
+          "target": "/blog/ottertune-automatic-database-management-system-tuning-through-large-scale-machine-learning",
+          "text": "OtterTune - Automatic Database Management System Tuning Through Large-scale Machine Learning"
+        },
+        {
+          "source": "/blog/towards-a-completely-self-driven-dbms-challenges-ottertune-faced",
+          "target": "/blog/ottertune-automatic-database-management-system-tuning-through-large-scale-machine-learning",
+          "text": "OtterTune - Automatic Database Management System Tuning Through Large-scale Machine Learning"
         }
       ],
       "/blog/p-vs-np": [
@@ -846,11 +961,25 @@
           "text": "The Fast Fourier Transform (FFT)"
         }
       ],
+      "/blog/the-google-file-system": [
+        {
+          "source": "/blog/in-search-of-an-understandable-consensus-algorithm-extended-version-raft",
+          "target": "/blog/the-google-file-system",
+          "text": "The Google File System"
+        }
+      ],
       "/blog/theoretical-metrics-for-benchmarking": [
         {
           "source": "/blog/mega-project-kblas-writing-a-benchmark-library-in-c-optimizing-l1-l2-basic-linear-algebra-subprograms",
           "target": "/blog/theoretical-metrics-for-benchmarking",
           "text": "Theoretical Metrics for Benchmarking"
+        }
+      ],
+      "/blog/tidb-a-raft-based-htap-database": [
+        {
+          "source": "/blog/in-search-of-an-understandable-consensus-algorithm-extended-version-raft",
+          "target": "/blog/tidb-a-raft-based-htap-database",
+          "text": "TiDB - A Raft-based HTAP Database"
         }
       ],
       "/blog/vectorization-analyzing-loop-dependencies": [
@@ -875,6 +1004,13 @@
           "source": "/blog/a-c-programmer-s-guide-to-c",
           "target": "/blog/what-are-iterators-in-c",
           "text": "What are Iterators in C++?"
+        }
+      ],
+      "/blog/what-goes-around-comes-around-and-around-the-history-of-database-systems-part-2-2000-2020": [
+        {
+          "source": "/blog/what-goes-around-comes-around-the-history-of-database-systems-part-1-1960-2000",
+          "target": "/blog/what-goes-around-comes-around-and-around-the-history-of-database-systems-part-2-2000-2020",
+          "text": "What Goes Around Comes Around... and Around... - The History of Database Systems - Part 2 - (2000 - 2020)"
         }
       ],
       "/blog/what-is-the-stock-market": [
@@ -1102,6 +1238,21 @@
       "text": "Are there computational problems that computers cannot solve?"
     },
     {
+      "source": "/blog/in-search-of-an-understandable-consensus-algorithm-extended-version-raft",
+      "target": "/blog/how-to-analyze-algorithms-proving-a-lower-bound-for-comparison-based-sorting",
+      "text": "How to Analyze Algorithms? Proving a Lower Bound for Comparison Based Sorting"
+    },
+    {
+      "source": "/blog/in-search-of-an-understandable-consensus-algorithm-extended-version-raft",
+      "target": "/blog/tidb-a-raft-based-htap-database",
+      "text": "TiDB - A Raft-based HTAP Database"
+    },
+    {
+      "source": "/blog/in-search-of-an-understandable-consensus-algorithm-extended-version-raft",
+      "target": "/blog/the-google-file-system",
+      "text": "The Google File System"
+    },
+    {
       "source": "/blog/introduction-to-complexity-theory",
       "target": "/blog/defining-computational-problems",
       "text": "Defining Computational Problems"
@@ -1170,6 +1321,16 @@
       "source": "/blog/new-and-delete",
       "target": "/blog/smart-pointers",
       "text": "Smart Pointers"
+    },
+    {
+      "source": "/blog/ottertune-automatic-database-management-system-tuning-through-large-scale-machine-learning",
+      "target": "/blog/lasso-ridge-elastic-net-regression",
+      "text": "Lasso / Ridge / Elastic Net Regression"
+    },
+    {
+      "source": "/blog/ottertune-automatic-database-management-system-tuning-through-large-scale-machine-learning",
+      "target": "/blog/gaussian-process-regression",
+      "text": "Gaussian Process Regression"
     },
     {
       "source": "/blog/parallelism-with-omp",
@@ -1282,9 +1443,39 @@
       "text": "Brent's Theorem \u0026 Task Level Parallelism"
     },
     {
+      "source": "/blog/towards-a-completely-self-driven-dbms-challenges-ottertune-faced",
+      "target": "/blog/ottertune-automatic-database-management-system-tuning-through-large-scale-machine-learning",
+      "text": "OtterTune - Automatic Database Management System Tuning Through Large-scale Machine Learning"
+    },
+    {
+      "source": "/blog/towards-a-completely-self-driven-dbms-challenges-ottertune-faced",
+      "target": "/blog/ottertune-automatic-database-management-system-tuning-through-large-scale-machine-learning",
+      "text": "OtterTune - Automatic Database Management System Tuning Through Large-scale Machine Learning"
+    },
+    {
       "source": "/blog/vectorization-analyzing-loop-dependencies",
       "target": "/blog/flynn-s-taxonomy",
       "text": "Flynn's Taxonomy"
+    },
+    {
+      "source": "/blog/what-goes-around-comes-around-the-history-of-database-systems-part-1-1960-2000",
+      "target": "/blog/b-tree",
+      "text": "B+ Tree"
+    },
+    {
+      "source": "/blog/what-goes-around-comes-around-the-history-of-database-systems-part-1-1960-2000",
+      "target": "/blog/hashtable",
+      "text": "Hashtable"
+    },
+    {
+      "source": "/blog/what-goes-around-comes-around-the-history-of-database-systems-part-1-1960-2000",
+      "target": "/blog/what-goes-around-comes-around-and-around-the-history-of-database-systems-part-2-2000-2020",
+      "text": "What Goes Around Comes Around... and Around... - The History of Database Systems - Part 2 - (2000 - 2020)"
+    },
+    {
+      "source": "/blog/what-goes-around-comes-around-the-history-of-database-systems-part-1-1960-2000",
+      "target": "/blog/normalization-theory-in-dbms",
+      "text": "Normalization Theory in DBMS"
     },
     {
       "source": "/blog/what-is-the-stock-market",
