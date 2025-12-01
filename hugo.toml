@@ -31,8 +31,11 @@ defaultMarkdownHandler = "goldmark"
   title = "Kishore Kumar"
   description = "If we keep holding onto yesterday, what are we going to be tomorrow?"
   keywords = ["kishore", "kumar", "akcube", "iiit", "iiith", "iiit-h", "international institute of information technology", "ICPC", "competitive programming", "optimization", "performance", "algorithms", "finance", "math", "c++", "cpp", "research", "quant", "finance", "ml", "deep learning", "reinforcement learning", "theory"]
-  customCSS = []
-  customJS = []
+  customCSS = ["css/images.css"]
+  customJS = [
+    "https://cdn.jsdelivr.net/npm/medium-zoom@1.1.0/dist/medium-zoom.min.js",
+    "js/image-zoom.js"
+  ]
   dateFormat = "2 January 2006"
   emphasisWithDots = true
   since = "2024"

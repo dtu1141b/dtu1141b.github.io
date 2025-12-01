@@ -1,0 +1,63 @@
+.image-container {
+  margin: 1.5rem 0;
+  text-align: center;
+}
+
+/* Uniform sizing prevents jarring layout shifts between posts */
+.blog-image {
+  max-width: 650px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  cursor: zoom-in;
+  transition: opacity 0.3s ease;
+  border-radius: 4px;
+}
+
+.blog-image:hover {
+  opacity: 0.95;
+}
+
+@media (max-width: 768px) {
+  .blog-image {
+    max-width: 100%;
+    margin: 1rem auto;
+  }
+
+  .image-container {
+    margin: 1rem 0;
+  }
+}
+
+.medium-zoom-overlay {
+  z-index: 999;
+}
+
+.medium-zoom-image {
+  z-index: 1000;
+  cursor: zoom-out !important;
+}
+
+.medium-zoom-image--opened {
+  cursor: zoom-out !important;
+}
+
+img.medium-zoom-image {
+  transition: transform 0.3s cubic-bezier(0.2, 0, 0.2, 1) !important;
+}
+
+/* Prevents picture element from adding unwanted margins/spacing */
+picture {
+  display: contents;
+}
+
+.blog-image[loading="lazy"] {
+  background-color: #f5f5f5;
+}
+
+@media print {
+  .blog-image {
+    max-width: 100%;
+    page-break-inside: avoid;
+  }
+}

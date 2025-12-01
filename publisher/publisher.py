@@ -9,6 +9,8 @@ import shlex
 import shutil
 import yaml
 import titlecase
+from PIL import Image
+from pathlib import Path
 
 def parse_args():
     parser = argparse.ArgumentParser(description="Preprocess Obsidian-generated Markdown files for compatibility with the customized TeXify3 Hugo theme by converting 'tags' YAML to 'topics' and appending file creation & publishing date metadata to the YAML header.")
@@ -45,6 +47,65 @@ def get_date_of_creation(file_path):
 	else:
 		return datetime.datetime.strptime(log.split('\n')[-1], '%a %b %d %H:%M:%S %Y %z')
 
+def optimize_image(src_path, dst_dir, base_name, max_width=1920, webp_quality=85, png_optimize=True):
+	"""
+	Optimize an image for web display:
+	- Resize if width > max_width (default 1920px for retina displays)
+	- Convert to WebP at specified quality (default 85%)
+	- Also save optimized PNG as fallback
+	- Maintains aspect ratio
+
+	Returns: tuple of (webp_path, png_path)
+	"""
+	try:
+		with Image.open(src_path) as img:
+			original_mode = img.mode
+			width, height = img.size
+
+			if width > max_width:
+				ratio = max_width / width
+				new_width = max_width
+				new_height = int(height * ratio)
+				img = img.resize((new_width, new_height), Image.Resampling.LANCZOS)
+				print(f"  Resized {os.path.basename(src_path)} from {width}x{height} to {new_width}x{new_height}")
+
+			webp_path = os.path.join(dst_dir, base_name + '.webp')
+			png_path = os.path.join(dst_dir, base_name + '.png')
+
+			# WebP compresses better without alpha channel, so flatten to white background
+			if original_mode in ('RGBA', 'LA'):
+				webp_img = Image.new('RGB', img.size, (255, 255, 255))
+				if img.mode == 'RGBA':
+					webp_img.paste(img, mask=img.split()[3])
+				else:
+					webp_img.paste(img)
+				webp_img.save(webp_path, 'WEBP', quality=webp_quality, method=6)
+			else:
+				rgb_img = img.convert('RGB')
+				rgb_img.save(webp_path, 'WEBP', quality=webp_quality, method=6)
+
+			# PNG fallback preserves transparency for older browsers
+			if png_optimize:
+				img.save(png_path, 'PNG', optimize=True)
+			else:
+				img.save(png_path, 'PNG')
+
+			original_size = os.path.getsize(src_path)
+			webp_size = os.path.getsize(webp_path)
+			png_size = os.path.getsize(png_path)
+			savings = ((original_size - webp_size) / original_size) * 100
+
+			print(f"  Optimized {os.path.basename(src_path)}: {original_size//1024}KB → WebP: {webp_size//1024}KB, PNG: {png_size//1024}KB ({savings:.1f}% savings)")
+
+			return webp_path, png_path
+
+	except Exception as e:
+		print(f"  Warning: Could not optimize {src_path}: {str(e)}")
+		print(f"  Falling back to simple copy")
+		fallback_path = os.path.join(dst_dir, base_name + os.path.splitext(src_path)[1])
+		shutil.copy2(src_path, fallback_path)
+		return fallback_path, fallback_path
+
 def process_file(src_path, dst_dir, img_dirs, idst_dir):
 	try:
 		# Declare useful util fns / metadata
@@ -73,7 +134,8 @@ def process_file(src_path, dst_dir, img_dirs, idst_dir):
 		def handle_image(name, deps):
 			deps.add(name)
 			basename, ext = os.path.splitext(os.path.basename(name))
-			return f'![{basename}](/images/{inflection.parameterize(basename) + ext})\n'
+			# Reference .webp in markdown (Hugo render hook will handle fallback)
+			return f'![{basename}](/images/{inflection.parameterize(basename)}.webp)\n'
 
 		content = re.sub(r'!\[\[(.*?)\]\]', lambda match: handle_image(match.group(1), image_deps), content)	
 		content = re.sub(r'\[\[(.*?)\]\]', lambda match: handle_wikilink(match.group(1)), content)
@@ -94,7 +156,8 @@ def process_file(src_path, dst_dir, img_dirs, idst_dir):
 
 		for img in image_src_paths:
 			imgname, ext = os.path.splitext(os.path.basename(img))
-			shutil.copy2(img, os.path.join(idst_dir, inflection.parameterize(imgname) + ext))
+			parameterized_name = inflection.parameterize(imgname)
+			optimize_image(img, idst_dir, parameterized_name)
 
 		# Write updated file
 		with open(os.path.join(dst_dir, inflection.parameterize(filename) + ".md"), 'w') as file:
