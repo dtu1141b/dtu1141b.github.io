@@ -1,4 +1,11 @@
-# akcube.github.io
+# [Kishore Kumar](https://akcube.github.io)
+
+[![Deploy Hugo site to Pages](https://github.com/akcube/akcube.github.io/actions/workflows/hugo.yml/badge.svg)](https://github.com/akcube/akcube.github.io/actions/workflows/hugo.yml)
+[![Website](https://img.shields.io/website?url=https%3A%2F%2Fakcube.github.io&label=akcube.github.io)](https://akcube.github.io)
+[![Hugo](https://img.shields.io/badge/Hugo-v0.124.1+-blue?logo=hugo)](https://gohugo.io)
+[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+[![Last Commit](https://img.shields.io/github/last-commit/akcube/akcube.github.io)](https://github.com/akcube/akcube.github.io/commits/main)
+[![Repo Size](https://img.shields.io/github/repo-size/akcube/akcube.github.io)](https://github.com/akcube/akcube.github.io)
 
 Personal blog and portfolio site built with Hugo, featuring optimized images and a custom Obsidian-compatible theme.
 
