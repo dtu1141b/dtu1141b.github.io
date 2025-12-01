@@ -1,0 +1,30 @@
+{{- $alt := .Text -}}
+{{- $src := .Destination -}}
+{{- $title := .Title -}}
+
+{{- /* Extract the base path without extension for fallback */ -}}
+{{- $basePath := strings.TrimSuffix ".webp" $src -}}
+{{- $basePath = strings.TrimSuffix ".png" $basePath -}}
+{{- $basePath = strings.TrimSuffix ".jpg" $basePath -}}
+{{- $basePath = strings.TrimSuffix ".jpeg" $basePath -}}
+
+<div class="image-container">
+  <picture>
+    {{- /* WebP source for modern browsers */ -}}
+    <source srcset="{{ $basePath }}.webp" type="image/webp">
+
+    {{- /* PNG fallback for older browsers */ -}}
+    <source srcset="{{ $basePath }}.png" type="image/png">
+
+    {{- /* Fallback img tag */ -}}
+    <img
+      src="{{ $basePath }}.webp"
+      alt="{{ $alt }}"
+      {{ with $title }}title="{{ . }}"{{ end }}
+      loading="lazy"
+      decoding="async"
+      class="blog-image zoomable"
+      style="max-width: 650px; height: auto; cursor: zoom-in; display: block; margin: 1.5rem auto;"
+    >
+  </picture>
+</div>
