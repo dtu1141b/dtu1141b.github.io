@@ -88,6 +88,43 @@
           "text": "Church-Turing Hypothesis"
         }
       ],
+      "/blog/basics-of-supervised-learning-linear-regression": [
+        {
+          "source": "/blog/basics-of-supervised-learning-linear-regression",
+          "target": "/blog/basics-of-neural-networks",
+          "text": "Basics of Neural Networks"
+        },
+        {
+          "source": "/blog/basics-of-supervised-learning-linear-regression",
+          "target": "/blog/flynn-s-taxonomy",
+          "text": "Flynn's Taxonomy"
+        },
+        {
+          "source": "/blog/basics-of-supervised-learning-linear-regression",
+          "target": "/blog/mega-project-kblas-writing-a-benchmark-library-in-c-optimizing-l1-l2-basic-linear-algebra-subprograms",
+          "text": "Mega-Project - kBLAS (Writing a Benchmark library in C \u0026 Optimizing L1, L2 Basic Linear Algebra Subprograms)"
+        },
+        {
+          "source": "/blog/basics-of-supervised-learning-linear-regression",
+          "target": "/blog/gpus",
+          "text": "GPUs"
+        },
+        {
+          "source": "/blog/basics-of-supervised-learning-linear-regression",
+          "target": "/blog/basics-of-neural-networks",
+          "text": "Basics of Neural Networks"
+        },
+        {
+          "source": "/blog/basics-of-supervised-learning-linear-regression",
+          "target": "/blog/basics-of-neural-networks",
+          "text": "Basics of Neural Networks"
+        },
+        {
+          "source": "/blog/basics-of-supervised-learning-linear-regression",
+          "target": "/blog/basics-of-supervised-learning-logistic-regression",
+          "text": "Basics of Supervised Learning - Logistic Regression"
+        }
+      ],
       "/blog/chain-matrix-multiplication": [
         {
           "source": "/blog/chain-matrix-multiplication",
@@ -256,6 +293,23 @@
           "source": "/blog/levenshtein-edit-distance",
           "target": "/blog/dp-as-dags-shortest-path-on-dags-lis-in-o-nlogn",
           "text": "DP as DAGs,  Shortest path on DAGs \u0026 LIS in O(nlogn)"
+        }
+      ],
+      "/blog/log-structured-merge-tree-lsm-trees": [
+        {
+          "source": "/blog/log-structured-merge-tree-lsm-trees",
+          "target": "/blog/rocksdb",
+          "text": "RocksDB"
+        },
+        {
+          "source": "/blog/log-structured-merge-tree-lsm-trees",
+          "target": "/blog/rocksdb",
+          "text": "RocksDB"
+        },
+        {
+          "source": "/blog/log-structured-merge-tree-lsm-trees",
+          "target": "/blog/bloom-filters",
+          "text": "Bloom Filters"
         }
       ],
       "/blog/master-s-theorem-strassen-s-matrix-multiplication-kth-order-statistics": [
@@ -586,6 +640,37 @@
           "text": "B+ Tree"
         }
       ],
+      "/blog/basics-of-neural-networks": [
+        {
+          "source": "/blog/basics-of-supervised-learning-linear-regression",
+          "target": "/blog/basics-of-neural-networks",
+          "text": "Basics of Neural Networks"
+        },
+        {
+          "source": "/blog/basics-of-supervised-learning-linear-regression",
+          "target": "/blog/basics-of-neural-networks",
+          "text": "Basics of Neural Networks"
+        },
+        {
+          "source": "/blog/basics-of-supervised-learning-linear-regression",
+          "target": "/blog/basics-of-neural-networks",
+          "text": "Basics of Neural Networks"
+        }
+      ],
+      "/blog/basics-of-supervised-learning-logistic-regression": [
+        {
+          "source": "/blog/basics-of-supervised-learning-linear-regression",
+          "target": "/blog/basics-of-supervised-learning-logistic-regression",
+          "text": "Basics of Supervised Learning - Logistic Regression"
+        }
+      ],
+      "/blog/bloom-filters": [
+        {
+          "source": "/blog/log-structured-merge-tree-lsm-trees",
+          "target": "/blog/bloom-filters",
+          "text": "Bloom Filters"
+        }
+      ],
       "/blog/booyer-moore-knuth-morris-pratt-for-exact-matching": [
         {
           "source": "/blog/algorithms-for-approximate-string-matching-alignment",
@@ -717,6 +802,11 @@
       ],
       "/blog/flynn-s-taxonomy": [
         {
+          "source": "/blog/basics-of-supervised-learning-linear-regression",
+          "target": "/blog/flynn-s-taxonomy",
+          "text": "Flynn's Taxonomy"
+        },
+        {
           "source": "/blog/vectorization-analyzing-loop-dependencies",
           "target": "/blog/flynn-s-taxonomy",
           "text": "Flynn's Taxonomy"
@@ -734,6 +824,13 @@
           "source": "/blog/ottertune-automatic-database-management-system-tuning-through-large-scale-machine-learning",
           "target": "/blog/gaussian-process-regression",
           "text": "Gaussian Process Regression"
+        }
+      ],
+      "/blog/gpus": [
+        {
+          "source": "/blog/basics-of-supervised-learning-linear-regression",
+          "target": "/blog/gpus",
+          "text": "GPUs"
         }
       ],
       "/blog/great-depression": [
@@ -810,6 +907,13 @@
           "source": "/blog/the-black-scholes-merton-equation",
           "target": "/blog/linearity-of-expectation",
           "text": "LINEARITY OF EXPECTATION"
+        }
+      ],
+      "/blog/mega-project-kblas-writing-a-benchmark-library-in-c-optimizing-l1-l2-basic-linear-algebra-subprograms": [
+        {
+          "source": "/blog/basics-of-supervised-learning-linear-regression",
+          "target": "/blog/mega-project-kblas-writing-a-benchmark-library-in-c-optimizing-l1-l2-basic-linear-algebra-subprograms",
+          "text": "Mega-Project - kBLAS (Writing a Benchmark library in C \u0026 Optimizing L1, L2 Basic Linear Algebra Subprograms)"
         }
       ],
       "/blog/more-greedy-algorithms-kruskal-s-disjoint-set-union": [
@@ -912,6 +1016,18 @@
           "source": "/blog/finite-and-infinite-sums",
           "target": "/blog/riemann-series-rearrangement",
           "text": "Riemann Series Rearrangement"
+        }
+      ],
+      "/blog/rocksdb": [
+        {
+          "source": "/blog/log-structured-merge-tree-lsm-trees",
+          "target": "/blog/rocksdb",
+          "text": "RocksDB"
+        },
+        {
+          "source": "/blog/log-structured-merge-tree-lsm-trees",
+          "target": "/blog/rocksdb",
+          "text": "RocksDB"
         }
       ],
       "/blog/set-cover-approximation-algorithms": [
@@ -1138,6 +1254,41 @@
       "text": "Church-Turing Hypothesis"
     },
     {
+      "source": "/blog/basics-of-supervised-learning-linear-regression",
+      "target": "/blog/basics-of-neural-networks",
+      "text": "Basics of Neural Networks"
+    },
+    {
+      "source": "/blog/basics-of-supervised-learning-linear-regression",
+      "target": "/blog/flynn-s-taxonomy",
+      "text": "Flynn's Taxonomy"
+    },
+    {
+      "source": "/blog/basics-of-supervised-learning-linear-regression",
+      "target": "/blog/mega-project-kblas-writing-a-benchmark-library-in-c-optimizing-l1-l2-basic-linear-algebra-subprograms",
+      "text": "Mega-Project - kBLAS (Writing a Benchmark library in C \u0026 Optimizing L1, L2 Basic Linear Algebra Subprograms)"
+    },
+    {
+      "source": "/blog/basics-of-supervised-learning-linear-regression",
+      "target": "/blog/gpus",
+      "text": "GPUs"
+    },
+    {
+      "source": "/blog/basics-of-supervised-learning-linear-regression",
+      "target": "/blog/basics-of-neural-networks",
+      "text": "Basics of Neural Networks"
+    },
+    {
+      "source": "/blog/basics-of-supervised-learning-linear-regression",
+      "target": "/blog/basics-of-neural-networks",
+      "text": "Basics of Neural Networks"
+    },
+    {
+      "source": "/blog/basics-of-supervised-learning-linear-regression",
+      "target": "/blog/basics-of-supervised-learning-logistic-regression",
+      "text": "Basics of Supervised Learning - Logistic Regression"
+    },
+    {
       "source": "/blog/chain-matrix-multiplication",
       "target": "/blog/levenshtein-edit-distance",
       "text": "Levenshtein Edit Distance"
@@ -1276,6 +1427,21 @@
       "source": "/blog/levenshtein-edit-distance",
       "target": "/blog/dp-as-dags-shortest-path-on-dags-lis-in-o-nlogn",
       "text": "DP as DAGs,  Shortest path on DAGs \u0026 LIS in O(nlogn)"
+    },
+    {
+      "source": "/blog/log-structured-merge-tree-lsm-trees",
+      "target": "/blog/rocksdb",
+      "text": "RocksDB"
+    },
+    {
+      "source": "/blog/log-structured-merge-tree-lsm-trees",
+      "target": "/blog/rocksdb",
+      "text": "RocksDB"
+    },
+    {
+      "source": "/blog/log-structured-merge-tree-lsm-trees",
+      "target": "/blog/bloom-filters",
+      "text": "Bloom Filters"
     },
     {
       "source": "/blog/master-s-theorem-strassen-s-matrix-multiplication-kth-order-statistics",
