@@ -353,6 +353,18 @@
           "text": "Activity Selection \u0026 Huffman Encoding"
         }
       ],
+      "/blog/multi-agent-systems-harnessing-collective-intelligence-a-survey": [
+        {
+          "source": "/blog/multi-agent-systems-harnessing-collective-intelligence-a-survey",
+          "target": "/blog/reasoning-acting-and-learning-a-survey-of-single-agent-llm-patterns",
+          "text": "Reasoning, Acting, and Learning ; A Survey of Single-Agent LLM Patterns"
+        },
+        {
+          "source": "/blog/multi-agent-systems-harnessing-collective-intelligence-a-survey",
+          "target": "/blog/building-a-type-safe-tool-framework-for-llms-in-scala",
+          "text": "Building a Type-Safe Tool Framework for LLMs in Scala"
+        }
+      ],
       "/blog/new-and-delete": [
         {
           "source": "/blog/new-and-delete",
@@ -396,6 +408,13 @@
           "source": "/blog/randomization-primality-testing-algorithms",
           "target": "/blog/wilson-s-theorem-fermat-s-little-theorem-euler-s-totient-function",
           "text": "Wilson's Theorem, Fermat's Little Theorem \u0026 Euler's Totient Function"
+        }
+      ],
+      "/blog/reasoning-acting-and-learning-a-survey-of-single-agent-llm-patterns": [
+        {
+          "source": "/blog/reasoning-acting-and-learning-a-survey-of-single-agent-llm-patterns",
+          "target": "/blog/multi-agent-systems-harnessing-collective-intelligence-a-survey",
+          "text": "Multi-Agent Systems; Harnessing Collective Intelligence - A Survey"
         }
       ],
       "/blog/set-cover-approximation-algorithms": [
@@ -705,6 +724,13 @@
           "text": "Brent's Theorem \u0026 Task Level Parallelism"
         }
       ],
+      "/blog/building-a-type-safe-tool-framework-for-llms-in-scala": [
+        {
+          "source": "/blog/multi-agent-systems-harnessing-collective-intelligence-a-survey",
+          "target": "/blog/building-a-type-safe-tool-framework-for-llms-in-scala",
+          "text": "Building a Type-Safe Tool Framework for LLMs in Scala"
+        }
+      ],
       "/blog/but-it-works-on-my-machine-beginners-guide-to-undefined-behavior-in-c": [
         {
           "source": "/blog/a-c-programmer-s-guide-to-c",
@@ -928,6 +954,13 @@
           "text": "More Greedy Algorithms! Kruskal's \u0026 Disjoint Set Union"
         }
       ],
+      "/blog/multi-agent-systems-harnessing-collective-intelligence-a-survey": [
+        {
+          "source": "/blog/reasoning-acting-and-learning-a-survey-of-single-agent-llm-patterns",
+          "target": "/blog/multi-agent-systems-harnessing-collective-intelligence-a-survey",
+          "text": "Multi-Agent Systems; Harnessing Collective Intelligence - A Survey"
+        }
+      ],
       "/blog/new-and-delete": [
         {
           "source": "/blog/smart-pointers",
@@ -1009,6 +1042,13 @@
           "source": "/blog/wilson-s-theorem-fermat-s-little-theorem-euler-s-totient-function",
           "target": "/blog/randomization-primality-testing-algorithms",
           "text": "Randomization, Primality Testing Algorithms"
+        }
+      ],
+      "/blog/reasoning-acting-and-learning-a-survey-of-single-agent-llm-patterns": [
+        {
+          "source": "/blog/multi-agent-systems-harnessing-collective-intelligence-a-survey",
+          "target": "/blog/reasoning-acting-and-learning-a-survey-of-single-agent-llm-patterns",
+          "text": "Reasoning, Acting, and Learning ; A Survey of Single-Agent LLM Patterns"
         }
       ],
       "/blog/riemann-series-rearrangement": [
@@ -1479,6 +1519,16 @@
       "text": "Activity Selection \u0026 Huffman Encoding"
     },
     {
+      "source": "/blog/multi-agent-systems-harnessing-collective-intelligence-a-survey",
+      "target": "/blog/reasoning-acting-and-learning-a-survey-of-single-agent-llm-patterns",
+      "text": "Reasoning, Acting, and Learning ; A Survey of Single-Agent LLM Patterns"
+    },
+    {
+      "source": "/blog/multi-agent-systems-harnessing-collective-intelligence-a-survey",
+      "target": "/blog/building-a-type-safe-tool-framework-for-llms-in-scala",
+      "text": "Building a Type-Safe Tool Framework for LLMs in Scala"
+    },
+    {
       "source": "/blog/new-and-delete",
       "target": "/blog/raii-resource-acquisition-is-initialization",
       "text": "RAII - Resource Acquisition Is Initialization"
@@ -1512,6 +1562,11 @@
       "source": "/blog/randomization-primality-testing-algorithms",
       "target": "/blog/wilson-s-theorem-fermat-s-little-theorem-euler-s-totient-function",
       "text": "Wilson's Theorem, Fermat's Little Theorem \u0026 Euler's Totient Function"
+    },
+    {
+      "source": "/blog/reasoning-acting-and-learning-a-survey-of-single-agent-llm-patterns",
+      "target": "/blog/multi-agent-systems-harnessing-collective-intelligence-a-survey",
+      "text": "Multi-Agent Systems; Harnessing Collective Intelligence - A Survey"
     },
     {
       "source": "/blog/set-cover-approximation-algorithms",

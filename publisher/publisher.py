@@ -124,7 +124,7 @@ def process_file(src_path, dst_dir, img_dirs, idst_dir):
 		if 'date' not in header:
 			header['date'] = datetime.datetime.now(datetime.timezone.utc).astimezone().strftime('%Y-%m-%d %H:%M:%S%z')
 		header['doc'] = get_date_of_creation(src_path)
-		header['title'] = titlecase.titlecase(filename)
+		header['title'] = titlecase.titlecase(filename).replace(';', ':')
 		header['author'] = 'Kishore Kumar'
 
 		# Parse & construct updated contents
