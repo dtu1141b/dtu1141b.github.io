@@ -1,0 +1,75 @@
+@use "sass:math";
+
+@import "../vars";
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  gap: $margin * 2;
+
+  @media (max-width: $mobile-breakpoint) {
+    grid-template-columns: 1fr;
+  }
+
+  .index ol li {
+    a.link {
+      display: inline-block;
+      line-height: 1.5;
+
+      @media screen and (max-width: $mobile-breakpoint) {
+        padding: 8px 4px;
+        min-height: 44px; // WCAG 2.1 Level AAA touch target size
+      }
+    }
+  }
+
+  .sidebar {
+    flex: 1;
+
+    @media screen and (max-width: $mobile-breakpoint) {
+      order: 1;
+    }
+
+    h2.taxonomy > a {
+      color: var(--fg);
+      text-decoration: none;
+
+      &:visited {
+        color: var(--fg);
+      }
+
+      &:hover {
+        color: var(--fg1);
+      }
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+      border-color: var(--fg4);
+      display: block;
+      padding: math.div($margin, 2);
+      margin-top: math.div($margin, 2);
+      margin-bottom: math.div($margin, 2);
+      border: $border solid;
+      border-radius: $radius;
+
+      li a {
+        text-decoration: none;
+        display: block;
+        padding: 8px 12px;
+        min-height: 44px; // WCAG 2.1 Level AAA touch target size
+        display: flex;
+        align-items: center;
+        color: var(--fg);
+        transition: color 0.3s, background-color 0.3s;
+
+        &:hover {
+          color: var(--fg1);
+          background-color: var(--bg_s);
+          border-radius: $radius;
+        }
+      }
+    }
+  }
+}

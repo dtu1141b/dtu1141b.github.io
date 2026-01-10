@@ -1,0 +1,19 @@
+name = "Obsidian - TeXify3"
+license = "MIT"
+licenselink = "https://github.com/akcube/obsidian-hugo-texify3/blob/master/LICENSE"
+description = "A fork of Hugo TeXify3, with support for Obsidian graphs (using quartz) and a few personal tweaks."
+
+homepage = "https://akcube.github.io/"
+demosite = "https://akcube.github.io/"
+
+tags = ["blog", "clean", "latex", "light", "minimal", "responsive", "simple"]
+features = ["blog", "postcss", "comments", "google analytics"]
+
+[author]
+    name = "Kishore Kumar"
+    homepage = "https://akcube.github.io/"
+
+[original]
+    name = "Michael Neuper"
+    homepage = "https://michaelneuper.com"
+

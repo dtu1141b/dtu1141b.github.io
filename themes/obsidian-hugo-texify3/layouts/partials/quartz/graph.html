@@ -1,0 +1,67 @@
+<div>
+  <script
+    src="https://cdn.jsdelivr.net/npm/d3@6.7.0/dist/d3.min.js"
+    integrity="sha256-+7jaYCp29O1JusNWHaYtgUn6EhuP0VaFuswhNV06MyI="
+    crossorigin="anonymous"
+  ></script>
+  <center>
+    <h3>Interactive Graph</h3>
+  </center>
+  <div id="graph-container" style="background-color: #f5f5dc; margin-top: 15px; margin-bottom: 30px; border-radius: 10px;">
+    <!-- Graph will be rendered here -->
+  </div>
+
+<style>
+  :root {
+    --g-node: #800080; /* Purple */
+    --g-node-active: #4b0082; /* Indigo */
+    --g-node-inactive: #483d8b; /* Dark Slate Blue */
+    --g-link: #556b2f; /* Dark Olive Green */
+    --g-link-active: #800000; /* Maroon */
+  }
+
+  #graph-container {
+    position: relative;
+    width: 100%;
+    height: 500px;
+    margin: 0 auto;
+    background-color: #f5f5dc; /* Beige in light mode */
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+
+  .node circle {
+    fill: var(--g-node);
+    stroke: #fff;
+    stroke-width: 2px;
+    transition: fill 0.3s ease;
+  }
+
+  .node.active circle {
+    fill: var(--g-node-active);
+  }
+
+  .node.inactive circle {
+    fill: var(--g-node-inactive);
+  }
+
+  .link line {
+    stroke: var(--g-link);
+    stroke-width: 2px;
+    transition: stroke 0.3s ease;
+  }
+
+  .link.active line {
+    stroke: var(--g-link-active);
+  }
+
+  .label {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+  }
+</style>
+
+  {{ $js := resources.Get "quartz/js/graph.js" | resources.Fingerprint "md5" }}
+  <script src="{{ $js.Permalink }}"></script>
+</div>
