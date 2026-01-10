@@ -1,6 +1,6 @@
-baseURL = 'https://akcube.github.io/'
+baseURL = 'https://dtu1141b.github.io/'
 languageCode = 'en-us'
-title = 'Kishore Kumar'
+title = 'Dhaval Bothra'
 enableRobotsTXT = true
 theme = 'obsidian-hugo-texify3'
 
@@ -28,9 +28,9 @@ defaultMarkdownHandler = "goldmark"
           block = [['\[', '\]'], ['$$', '$$']]
           inline = [['\(', '\)'], ['$', '$']]
 [params]
-  title = "Kishore Kumar"
+  title = "Dhaval Bothra"
   description = "If we keep holding onto yesterday, what are we going to be tomorrow?"
-  keywords = ["kishore", "kumar", "akcube", "iiit", "iiith", "iiit-h", "international institute of information technology", "ICPC", "competitive programming", "optimization", "performance", "algorithms", "finance", "math", "c++", "cpp", "research", "quant", "finance", "ml", "deep learning", "reinforcement learning", "theory"]
+  keywords = ["dhaval", "bothra", "dtu1141b", "bits", "bits-pilani", "iiit-h", "birla institute of technology and science, pilani", "ICPC", "competitive programming", "optimization", "performance", "algorithms", "finance", "math", "c++", "cpp", "research", "quant", "finance", "ml", "deep learning", "reinforcement learning", "theory"]
   customCSS = ["css/images.css"]
   customJS = [
     "https://cdn.jsdelivr.net/npm/medium-zoom@1.1.0/dist/medium-zoom.min.js",
@@ -48,30 +48,7 @@ defaultMarkdownHandler = "goldmark"
   numberedSubtitles = true
   enableInlineShortcodes = true
 
-  [params.commentEngine]
-    code = """
-      <script src="https://giscus.app/client.js"
-        data-repo="akcube/akcube.github.io"
-        data-repo-id="MDEwOlJlcG9zaXRvcnkzODg5MzQ5MjA="
-        data-category="General"
-        data-category-id="DIC_kwDOFy6tCM4CfszM"
-        data-mapping="pathname"
-        data-strict="0"
-        data-reactions-enabled="1"
-        data-emit-metadata="0"
-        data-input-position="top"
-        data-theme="dark"
-        data-lang="en"
-        data-loading="lazy"
-        crossorigin="anonymous"
-        async>
-      </script>
-    """ 
 
-  [params.buymeacoffee]
-    code = """
-      <script data-name="BMC-Widget" data-cfasync="false" src="https://cdnjs.buymeacoffee.com/1.0.0/widget.prod.min.js" data-id="akcube" data-description="Support me on Buy me a coffee!" data-message="" data-color="#BD5FFF" data-position="Right" data-x_margin="18" data-y_margin="18"></script>
-    """
 
   [params.sharingbuttons]
     facebook = true
@@ -83,9 +60,6 @@ defaultMarkdownHandler = "goldmark"
     hackernews = true
     telegram = true
 
-[services]
-  [services.googleAnalytics]
-    id = "G-8EMLMJE79J"
 
 [[menus.main]]
 name = 'Home'

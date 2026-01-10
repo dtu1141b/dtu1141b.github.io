@@ -1,15 +1,15 @@
 +++
 title = 'Home'
-date = 2023-01-01T08:00:00-07:00
+date = 2025-01-11T08:00:00-07:00
 categories = []
 tags = []
 toc = true
 math = true
 +++
 
-I've graduated from the [International Institute of Information Technology - Hyderabad](https://www.iiit.ac.in/) and will be starting my professional career at [Databricks](https://www.databricks.com/). My interests span performance optimization, algorithms research, compilers, quantitative finance and competitive programming. I've contributed to projects on implementing C++ stdlib experimental extensions and worked on optimizing BLAS and bio-informatics algorithms like Needleman-Wunsch and the STAR DNA sequence aligner.    
+I am currently pursuing my undergraduate studies in B.E. Computer Science at [BITS Pilani - Pilani Campus](https://www.bits-pilani.ac.in/), where I am in my second year. My academic curiosity lies at the intersection of **artificial intelligence, mathematics, and competitive programming**, though it might change in future.    
 <br/>
-Lately, I've been exploring options pricing theory and ML theory. I intermittently write up my thoughts and notes on things I've learnt in my blog. If you are interested in my work, or would like to casually chat about research or CP or one of my other interests, feel free to reach out to me!    
+Beyond the classroom, I am actively involved with the [Mathematics Association](https://maths-assoc-bits-pilani.github.io/), where I serve as **Research Team Lead**. In this role, I organize events such as *Integration Bee* and *Proving the Obvious*, while mentoring junior members of the Research Team. Outside of academics and programming, I enjoy reading novels and watching anime.     
 
 <br/>
 
