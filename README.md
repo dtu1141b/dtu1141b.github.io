@@ -165,3 +165,4 @@ python optimize_existing_images.py
 ## License
 
 Content is © Kishore Kumar. Theme based on [Obsidian TeXify3](https://github.com/akcube/obsidian-hugo-texify3).
+
